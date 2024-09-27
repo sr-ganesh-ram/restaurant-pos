@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Works\MyGit\restaurant-pos\publish</_PublishTargetUrl>
-    <History>True|2024-09-24T06:24:38.6653590Z||;</History>
+    <_PublishTargetUrl>C:\Works\MyGit\restaurant-pos\docs</_PublishTargetUrl>
+    <History>True|2024-09-27T15:37:33.3762072Z||;True|2024-09-24T11:54:38.6653590+05:30||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

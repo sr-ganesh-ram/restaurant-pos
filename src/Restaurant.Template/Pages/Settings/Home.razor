@@ -1,0 +1,145 @@
+﻿@page "/settings/home"
+@page "/settings"
+
+@implements IDisposable
+
+<PageTitle>Settings</PageTitle>
+
+<MudGrid>
+    <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled" 
+                           OnClick='()=> NavigateClicked("general-settings")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.SettingsApplications"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+               
+                <MudText Typo="Typo.h6">General Settings</MudText>
+                <MudText Typo="Typo.body2">Configure general site settings.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled"
+                           OnClick='()=> NavigateClicked("outgoing-mail")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.MarkEmailRead"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+                <MudText Typo="Typo.h6">Outgoing Mail</MudText>
+                <MudText Typo="Typo.body2">Configure outgoing email service preferences.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled"
+                           OnClick='()=> NavigateClicked("appearance")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.ColorLens"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+                <MudText Typo="Typo.h6">Appearance</MudText>
+                <MudText Typo="Typo.body2">Configure the site icons, theme and background.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled"
+                           OnClick='()=> NavigateClicked("currency")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.CurrencyExchange"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+                <MudText Typo="Typo.h6">Currency</MudText>
+                <MudText Typo="Typo.body2">Configure the site currency symbols.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled"
+                           OnClick='()=> NavigateClicked("tax")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.Receipt"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+                <MudText Typo="Typo.h6">Tax</MudText>
+                <MudText Typo="Typo.body2">Configure the tax rate, type and implementation.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled"
+                           OnClick='()=> NavigateClicked("authentication")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.Fingerprint"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+                <MudText Typo="Typo.h6">Authentication</MudText>
+                <MudText Typo="Typo.body2">Configure registration and related things.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled"
+                           OnClick='()=> NavigateClicked("captcha")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.Password"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+                <MudText Typo="Typo.h6">Captcha</MudText>
+                <MudText Typo="Typo.body2">Configure captcha settings and preferences.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled"
+                           OnClick='()=> NavigateClicked("localization")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.Language"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+                <MudText Typo="Typo.h6">Localization</MudText>
+                <MudText Typo="Typo.body2">Configure Localization settings for the site.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+
+    <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled"
+                           OnClick='()=> NavigateClicked("invoice-printing")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.Print"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+                <MudText Typo="Typo.h6">Invoice Printing</MudText>
+                <MudText Typo="Typo.body2">Configure Printing settings for the sales invoice.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+    
+</MudGrid>

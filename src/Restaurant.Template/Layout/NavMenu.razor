@@ -2,11 +2,96 @@
 
 @inject NavigationManager NavigationManager
 
-<MudNavMenu>
-    <MudNavLink Href="" Match="NavLinkMatch.All" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>    
-    <MudNavLink Href="counter" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.Add">Counter</MudNavLink>
-    <MudNavLink Href="weather" Match="NavLinkMatch.Prefix" Icon="@Icons.Material.Filled.List">Weather</MudNavLink>    
+<MudNavMenu Bordered="true" Color="Color.Surface">
+    <MudNavLink Href="/" Match="NavLinkMatch.All" 
+                IconColor ="Color.Info"
+                Icon="material-symbols-outlined/dashboard">Dashboard</MudNavLink>
+    <MudNavLink Href="/sales" Match="NavLinkMatch.All" Icon="material-symbols-outlined/receipt_long">Sales</MudNavLink>
     
+    <MudNavGroup Icon="material-symbols-outlined/domain" Title="Portals" Expanded="true">
+        <MudNavLink Icon="material-symbols-outlined/point_of_sale"
+                    Href="/portals/pos">POS</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/restaurant" 
+                    Href="/portals/kitchen">Kitchen</MudNavLink>
+    </MudNavGroup>
+
+    <MudNavGroup Icon="material-symbols-outlined/lunch_dining"  Title="Foods" Expanded="false">
+        <MudNavLink Icon="material-symbols-outlined/groups_3"
+                    Match="NavLinkMatch.All"
+                    Href="/foods/category">Category</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/restaurant"
+                    Match="NavLinkMatch.All"
+                    Href="/foods/items">Items</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/brunch_dining"
+                    Match="NavLinkMatch.All"
+                    Href="/foods/modifier">Modifier</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/soup_kitchen"
+                    Match="NavLinkMatch.All"
+                    Href="/foods/ingredients">Ingredients</MudNavLink>
+    </MudNavGroup>
+
+    <MudNavGroup Icon="material-symbols-outlined/payments" Title="Expense" Expanded="false">
+        <MudNavLink Icon="material-symbols-outlined/format_list_bulleted"
+                    Match="NavLinkMatch.All"
+                    Href="/expense/type">Type</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/paid"
+                    Match="NavLinkMatch.All"
+                    Href="/expense/expenses">Expenses</MudNavLink>
+    </MudNavGroup>
+
+    <MudNavGroup Icon="material-symbols-outlined/diversity_3" Title="People" Expanded="false">
+        <MudNavLink Icon="material-symbols-outlined/person"
+                    Match="NavLinkMatch.All"
+                    Href="/people/users">Users</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/switch_access_2"
+                    Match="NavLinkMatch.All"
+                    Href="/people/roles">Roles</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/partner_exchange"
+                    Match="NavLinkMatch.All"
+                    Href="/people/customer">Customers</MudNavLink>
+    </MudNavGroup>
+
+    <MudNavGroup Icon="material-symbols-outlined/newspaper" Title="Reports" Expanded="false">
+        <MudNavLink Icon="material-symbols-outlined/lab_profile"
+                    Match="NavLinkMatch.All"
+                    Href="/report/overall">Overall</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/receipt"
+                    Match="NavLinkMatch.All"
+                    Href="/report/tax">Tax</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/receipt_long"
+                    Match="NavLinkMatch.All"
+                    Href="/report/expense">Expense</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/inventory_2"
+                    Match="NavLinkMatch.All"
+                    Href="/report/stock">Stock Alert</MudNavLink>
+    </MudNavGroup>
+
+    <MudNavGroup Icon="material-symbols-outlined/steppers" Title="Advance" Expanded="false">
+        <MudNavLink Icon="material-symbols-outlined/repartition"
+                    Match="NavLinkMatch.All"
+                    Href="/advance/import-export">Import/Export </MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/cards"
+                    Match="NavLinkMatch.All"
+                    Href="/advance/service-table">Tables</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/payments"
+                    Match="NavLinkMatch.All"
+                    Href="/advance/payments">Payments</MudNavLink>
+        <MudNavLink Icon="material-symbols-outlined/hail"
+                    Match="NavLinkMatch.All"
+                    Href="/advance/pickup-point">Pickups</MudNavLink>
+        
+        <MudNavLink Icon="material-symbols-outlined/database"
+                    Match="NavLinkMatch.All"
+                    Href="/advance/backup">Backup</MudNavLink>
+        
+        <MudNavLink Icon="material-symbols-outlined/translate"
+                    Match="NavLinkMatch.All"
+                    Href="/advance/language">Languages</MudNavLink>
+    </MudNavGroup>
+    <MudNavLink Href="/settings" Match="NavLinkMatch.All" 
+                IconColor="Color.Error"
+                Icon="material-symbols-outlined/settings">Settings</MudNavLink>
+  
 </MudNavMenu>
 
 @code {
