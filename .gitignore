@@ -2,3 +2,6 @@
 /src/Restaurant.Template/.vs
 /src/Restaurant.Template/bin
 /src/Restaurant.Template/obj
+/src/bin
+/src/obj
+/src/.vs

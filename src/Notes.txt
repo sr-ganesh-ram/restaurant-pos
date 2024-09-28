@@ -1,0 +1,3 @@
+dotnet publish Restaurant.Template.csproj /p:PublishProfile=FolderProfile
+
+ dotnet publish /p:PublishProfile=./Properties/PublishProfiles/FolderProfile.pubxml
