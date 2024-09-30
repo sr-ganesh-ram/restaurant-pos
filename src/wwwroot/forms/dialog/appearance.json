@@ -1,0 +1,94 @@
+﻿[
+  {
+    "Card": "appearance",
+    "Elevation": 0,
+    "Style": "",
+    "Spacing": 2,
+    "Outlined": true,
+    "Class": "ma-4",
+    "GridPosition": {
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12
+    },
+    "Header": {
+      "Enable": false,
+      "Divider": false,
+      "Avatar": {
+        "Enable": true,
+        "Color": "Primary",
+        "Icon": "Material.Filled.AcUnit",
+        "Variant": "Outlined"
+      },
+      "Content": {
+        "Enable": true,
+        "Title": "Student Details",
+        "SubTitle": "This Panel displays the Student details."
+      },
+      "CardAction": {
+        "Enable": true,
+        "Color": "Primary",
+        "Icon": "Material.Filled.AddCircle"
+      }
+    },
+    "Footer": {
+      "Enable": false,
+      "CustomClass": "d-flex justify-end flex-grow-1 gap-2",
+      "EnableCancel": true,
+      "CancelText": "Cancel",
+      "CancelColor": "Secondary",
+      "CancelVariant": "Text",
+      "EnableSubmit": true,
+      "SubmitText": "Save",
+      "SubmitColor": "Primary",
+      "SubmitVariant": "Filled"
+    },
+
+    "Fields": [
+
+      {
+        "FieldName": "Logo",
+        "Label": "Logo",
+        "InputType": "FileUpload",
+        "FileAllowed": ".png",
+        "IsMultiple": false,
+        "IsReadOnly": false,
+        "IsRequired": true,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+      
+      {
+        "FieldName": "Icon",
+        "Label": "Icon",
+        "InputType": "FileUpload",
+        "FileAllowed": ".png",
+        "IsMultiple": false,
+        "IsReadOnly": false,
+        "IsRequired": true,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      }
+  
+    ]
+  }
+]

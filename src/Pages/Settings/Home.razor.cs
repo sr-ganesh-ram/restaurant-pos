@@ -1,13 +1,34 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Routing;
+using MudBlazor;
+using Restaurant.Template.Dialogs;
+using Restaurant.Template.Layout;
 
 namespace Restaurant.Template.Pages.Settings;
 
 public partial class Home : ComponentBase
 {
-    async Task NavigateClicked(string navigateTo)
+    async Task<Task<IDialogReference>> NavigateClicked(string navigateTo)
     {
-        Navigation.NavigateTo($"/settings/{navigateTo}");
+        //Navigation.NavigateTo($"/settings/{navigateTo}");
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+        Task<IDialogReference> dialog = null;
+        
+        switch (navigateTo)
+        {
+            case "general-settings":
+                dialog = DialogService.ShowAsync<GeneralSettingsDialog>("General Settings", options);
+                break;
+            case "outgoing-mail":
+                dialog = DialogService.ShowAsync<OutgoingMailDialog>("Outgoing Emails", options);
+                break;
+            case "appearance":
+                dialog = DialogService.ShowAsync<AppearanceDialog>("Appearance", options);
+                break;
+        }
+
+        return dialog;
+        
     }
     protected override void OnInitialized()
     {
@@ -16,7 +37,7 @@ public partial class Home : ComponentBase
 
     private void HandleLocationChanged(object? sender, LocationChangedEventArgs e)
     {
-        Logger.LogInformation("URL of new location: {Location}", e.Location);
+        DefaultLogger.LogInformation("URL of new location: {Location}", e.Location);
     }
 
     public void Dispose()

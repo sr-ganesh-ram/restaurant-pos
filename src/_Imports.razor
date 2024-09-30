@@ -11,5 +11,11 @@
 
 @using MudBlazor
 
-@inject ILogger<MainLayout> Logger
+@using Blazor.UI.FormGenerator
+@using Blazor.Shared.FormGenerator.Models
+@using MudBlazor.ThemeManager
+
+@inject ILogger<MainLayout> DefaultLogger
+@inject HttpClient Http
 @inject NavigationManager Navigation
+@inject IDialogService DialogService

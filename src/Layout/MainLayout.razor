@@ -1,18 +1,46 @@
 ﻿@inherits LayoutComponentBase
 
-<MudThemeProvider Theme="@_theme" IsDarkMode="_isDarkMode" />
+@*
+<MudThemeManager Open="_themeManagerOpen" 
+                 OpenChanged="OpenThemeManager" 
+                 Theme="_themeManager"
+                 IsDarkMode="_isDarkMode"
+                 ThemeChanged="UpdateTheme" />  *@
+
+
+<MudThemeProvider  Theme="@_theme" IsDarkMode="_isDarkMode" />
+@* 
+<MudThemeManagerButton OnClick="@((e) => OpenThemeManager(true))" />
+<MudDrawer @ref="MudThemeDrawer" 
+           @bind-Open="_drawerOpen" 
+           ClipMode="_themeManager.DrawerClipMode" 
+           Elevation="_themeManager.DrawerElevation"/>
+<MudThemeProvider Theme="_themeManager.Theme" IsDarkMode="_isDarkMode" />
+ *@
+
+
 <MudPopoverProvider />
-<MudDialogProvider />
 <MudSnackbarProvider />
 
+<MudDialogProvider FullWidth="false" 
+                   MaxWidth="MaxWidth.Large" 
+                   CloseButton="true" 
+                   CloseOnEscapeKey="true" 
+                   Position="DialogPosition.Center" />
+
 <MudLayout>
-     <MudAppBar Elevation="1">
+    <MudAppBar Elevation="_themeManager.AppBarElevation">
          <MudIconButton Icon="material-symbols-outlined/storefront" 
                         Color="Color.Inherit" Edge="Edge.Start" 
                         OnClick="@((e) => DrawerToggle())" />
-        <MudText Typo="Typo.h5" Class="ml-3">Restaurant</MudText>
+         <MudStack Row="false" Spacing="0">
+             <MudText Typo="Typo.h5" Class="ml-3">Restaurant</MudText>
+             <MudText Typo="Typo.subtitle2" Class="ml-3">&nbsp; version 0.0.4</MudText>
+         </MudStack>
 
-        <MudSpacer />
+         <MudSpacer />
+         <MudIconButton Icon="@Icons.Material.TwoTone.ColorLens" Color="Color.Inherit"
+                        OnClick="@((e) => OpenThemeManager(true))" />
         <MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle" />
         <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
      </MudAppBar>

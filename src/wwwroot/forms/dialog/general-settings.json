@@ -1,0 +1,121 @@
+﻿[
+  {
+    "Card": "general-settings",
+    "Elevation": 0,
+    "Style": "",
+    "Spacing": 2,
+    "Outlined": true,
+    "Class": "ma-4",
+    "GridPosition": {
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12
+    },
+    "Header": {
+      "Enable": false,
+      "Divider": false,
+      "Avatar": {
+        "Enable": true,
+        "Color": "Primary",
+        "Icon": "Material.Filled.AcUnit",
+        "Variant": "Outlined"
+      },
+      "Content": {
+        "Enable": true,
+        "Title": "Student Details",
+        "SubTitle": "This Panel displays the Student details."
+      },
+      "CardAction": {
+        "Enable": true,
+        "Color": "Primary",
+        "Icon": "Material.Filled.AddCircle"
+      }
+    },
+    "Footer": {
+      "Enable": false,
+      "CustomClass": "d-flex justify-end flex-grow-1 gap-2",
+      "EnableCancel": true,
+      "CancelText": "Cancel",
+      "CancelColor": "Secondary",
+      "CancelVariant": "Text",
+      "EnableSubmit": true,
+      "SubmitText": "Save",
+      "SubmitColor": "Primary",
+      "SubmitVariant": "Filled"
+    },
+    
+    "Fields": [
+      
+      {
+        "FieldName": "AppURL",
+        "Label": "Application URL",
+        "InputType": "Text",
+        "Adornment": "None",
+        "MaxLength": 210,
+        "IsReadOnly": false,
+        "IsRequired": true,        
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        }
+      },
+      
+      {
+        "FieldName": "AppName",
+        "Label": "Application Name",
+        "InputType": "Text",
+        "Adornment": "None",
+        "MaxLength": 180,
+        "IsReadOnly": false,
+        "IsRequired": true,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        }
+      },
+
+      {
+        "FieldName": "ContactPhone",
+        "Label": "Contact Mobile",
+        "InputType": "Text",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 10,
+        "IsRequired": true,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        }
+      },
+
+      {
+        "FieldName": "Address",
+        "Label": "Full Address",
+        "InputType": "MultiLine",
+        "Adornment": "None",
+        "MaxLength": 320,
+        "IsReadOnly": false,
+        "IsRequired": true,
+        "Line": 5,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        }
+      }
+
+    ]
+  }
+]

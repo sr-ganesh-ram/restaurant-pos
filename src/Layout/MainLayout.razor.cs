@@ -1,4 +1,5 @@
 ﻿using MudBlazor;
+using MudBlazor.ThemeManager;
 
 namespace Restaurant.Template.Layout;
 public partial class MainLayout
@@ -6,6 +7,12 @@ public partial class MainLayout
     private bool _drawerOpen = true;
     private bool _isDarkMode = true;
     private MudTheme? _theme = null;
+
+    public static MudDrawer MudThemeDrawer
+    {
+        get;
+        set;
+    }
 
     protected override void OnInitialized()
     {
@@ -17,6 +24,7 @@ public partial class MainLayout
             PaletteDark = _darkPalette,
             LayoutProperties = new LayoutProperties()
         };
+        StateHasChanged();
     }
     private void DarkModeToggle()
     {
@@ -73,5 +81,23 @@ public partial class MainLayout
         false => Icons.Material.Outlined.DarkMode,
     };
 
+    #region Theme Configuration
+
+    private ThemeManagerTheme _themeManager = new ThemeManagerTheme();
+    public bool _themeManagerOpen = false;
+
+    void OpenThemeManager(bool value)
+    {
+        _themeManagerOpen = value;
+    }
+
+    void UpdateTheme(ThemeManagerTheme value)
+    {
+        _themeManager = value;
+        StateHasChanged();
+    }
+
+
+    #endregion
 }
 
