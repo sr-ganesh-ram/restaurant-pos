@@ -9,7 +9,6 @@ namespace Restaurant.Template.Dialogs;
 
 public partial class OutgoingMailDialog : ComponentBase
 {
-    
     #region Global Properties & Variables
     [CascadingParameter]
     private MudDialogInstance MudDialog { get; set; }

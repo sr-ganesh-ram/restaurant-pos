@@ -40,7 +40,10 @@ public partial class GeneralSettingsDialog : ComponentBase
             DynamicMudForm.AttachCard_EventAction(_formBuilders, _cardTitle, CardActionClick);
             DynamicMudForm.AttachSubmitButton_EventAction(_formBuilders, _cardTitle, SubmitButton_Click);
             DynamicMudForm.AttachCancelButton_EventAction(_formBuilders, _cardTitle, CancelAction);
-            
+            DynamicMudForm.AttachValidationEvent(_formBuilders,
+                _cardTitle,
+                "AppURL",
+                new UrlAttribute() { ErrorMessage = "The URL is not valid" });
         }
 
         #endregion
@@ -50,19 +53,6 @@ public partial class GeneralSettingsDialog : ComponentBase
     #endregion
 
     #region Event Mapper
-
-    private void AttachValidationEvent()
-    {
-        var detailPanel = _formBuilders.FirstOrDefault(card => card.Card == _cardTitle);
-        if (detailPanel is not null)
-        {
-            var field = detailPanel.Fields.FirstOrDefault(field => field.FieldName == "AppURL");
-            if (field is not null)
-            {
-                field.Validation.Method = new UrlAttribute() { ErrorMessage = "The URL is not valid" };
-            }
-        }
-    }
     public async Task CardActionClick()
     {
         Console.WriteLine("Triggered the TextBox Card Action Clicked.");
@@ -75,10 +65,8 @@ public partial class GeneralSettingsDialog : ComponentBase
         if (_dynamicMudFrom.GetMudFrom().IsValid)
         {
             Logger.LogInformation("FormData {FormData}", _dynamicMudFrom.GetFormData()); 
+            MudDialog.Close(DialogResult.Ok(true));
         }
-
-        MudDialog.Close(DialogResult.Ok(true));
-
     }
     
     public async Task CancelAction()

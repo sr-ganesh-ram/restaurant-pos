@@ -30,20 +30,23 @@
 
 <MudLayout>
     <MudAppBar Elevation="_themeManager.AppBarElevation">
-         <MudIconButton Icon="material-symbols-outlined/storefront" 
-                        Color="Color.Inherit" Edge="Edge.Start" 
-                        OnClick="@((e) => DrawerToggle())" />
-         <MudStack Row="false" Spacing="0">
-             <MudText Typo="Typo.h5" Class="ml-3">Restaurant</MudText>
-             <MudText Typo="Typo.subtitle2" Class="ml-3">&nbsp; version 0.0.4</MudText>
-         </MudStack>
+        
+        <MudIconButton
+            Color="Color.Inherit" Edge="Edge.Start"
+            OnClick="@((e) => DrawerToggle())">
+            <MudImage Src="img/logo/nest-2.png" Height="32" Width="32" />
+        </MudIconButton>
+        <MudStack Row="false" Spacing="0">
+            <MudText Typo="Typo.h5" Class="ml-3">The Egg Box</MudText>
+            <MudText Typo="Typo.subtitle2" Class="ml-3">&nbsp; version 0.0.5</MudText>
+        </MudStack>
 
-         <MudSpacer />
-         <MudIconButton Icon="@Icons.Material.TwoTone.ColorLens" Color="Color.Inherit"
-                        OnClick="@((e) => OpenThemeManager(true))" />
-        <MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle" />
-        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End" />
-     </MudAppBar>
+        <MudSpacer/>
+        <MudIconButton Icon="@Icons.Material.TwoTone.ColorLens" Color="Color.Inherit"
+                       OnClick="@((e) => OpenThemeManager(true))"/>
+        <MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle"/>
+        <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End"/>
+    </MudAppBar>
 
     <MudDrawer @bind-Open="_drawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
         <NavMenu />

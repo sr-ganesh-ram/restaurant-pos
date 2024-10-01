@@ -1,6 +1,6 @@
 {
-  "name": "Restaurant.Template",
-  "short_name": "Restaurant.Template",
+  "name": "Restaurant.POS",
+  "short_name": "Restaurant.POS",
   "id": "./",
   "start_url": "./",
   "display": "standalone",
