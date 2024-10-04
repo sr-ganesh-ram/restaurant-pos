@@ -54,7 +54,6 @@
         "FileAllowed": ".png",
         "IsMultiple": false,
         "IsReadOnly": false,
-        "IsRequired": true,
         "Variant": "Text",
         "GridPosition": {
           "xs": 12,
@@ -75,7 +74,6 @@
         "FileAllowed": ".png",
         "IsMultiple": false,
         "IsReadOnly": false,
-        "IsRequired": true,
         "Variant": "Text",
         "GridPosition": {
           "xs": 12,

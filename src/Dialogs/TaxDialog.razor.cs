@@ -7,7 +7,7 @@ using MudBlazor;
 
 namespace Restaurant.Template.Dialogs;
 
-public partial class GeneralSettingsDialog : ComponentBase
+public partial class TaxDialog : ComponentBase
 {
     #region Global Properties & Variables
     [CascadingParameter]
@@ -29,7 +29,7 @@ public partial class GeneralSettingsDialog : ComponentBase
 
     private FormBuilder[]? _formBuilders;
 
-    private string _cardTitle = "general-settings";
+    private string _cardTitle = "tax";
     private async Task JsonFormBuilder()
     {
         #region All Controls
@@ -37,7 +37,6 @@ public partial class GeneralSettingsDialog : ComponentBase
     
         if (_formBuilders is not null)
         {
-            DynamicMudForm.AttachCard_EventAction(_formBuilders, _cardTitle, CardActionClick);
             DynamicMudForm.AttachSubmitButton_EventAction(_formBuilders, _cardTitle, SubmitButton_Click);
             DynamicMudForm.AttachCancelButton_EventAction(_formBuilders, _cardTitle, CancelAction);
             DynamicMudForm.AttachValidationEvent(_formBuilders,
@@ -53,11 +52,6 @@ public partial class GeneralSettingsDialog : ComponentBase
     #endregion
 
     #region Event Mapper
-    async Task CardActionClick()
-    {
-        Console.WriteLine("Triggered the TextBox Card Action Clicked.");
-    }
-
     async Task SubmitButton_Click(EventArgs args)
     {
         Logger.LogInformation("Submit Button Click");

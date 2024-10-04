@@ -56,13 +56,16 @@
         "HelperTextOnFocus": true,
         "MaxLength": 180,
         "IsReadOnly": false,
-        "IsRequired": true,
         "Variant": "Text",
         "GridPosition": {
           "xs": 12,
           "sm": 12,
           "md": 12,
           "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "From Address is Required."
         }
       },
 
@@ -75,13 +78,16 @@
         "HelperTextOnFocus": true,
         "IsReadOnly": false,
         "MaxLength": 10,
-        "IsRequired": true,
         "Variant": "Text",
         "GridPosition": {
           "xs": 12,
           "sm": 12,
           "md": 12,
           "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "From Name is Required."
         }
       },
 
@@ -92,13 +98,16 @@
         "Adornment": "None",
         "MaxLength": 50,        
         "IsReadOnly": false,
-        "IsRequired": true,
         "Variant": "Text",
         "GridPosition": {
           "xs": 12,
           "sm": 12,
           "md": 12,
           "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Message Template is Required."
         }
       }
     ]

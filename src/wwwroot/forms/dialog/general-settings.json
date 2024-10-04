@@ -53,14 +53,17 @@
         "InputType": "Text",
         "Adornment": "None",
         "MaxLength": 210,
-        "IsReadOnly": false,
-        "IsRequired": true,        
+        "IsReadOnly": false,     
         "Variant": "Text",
         "GridPosition": {
           "xs": 12,
           "sm": 12,
           "md": 12,
           "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "AppURL is Required."
         }
       },
       
@@ -70,14 +73,17 @@
         "InputType": "Text",
         "Adornment": "None",
         "MaxLength": 180,
-        "IsReadOnly": false,
-        "IsRequired": true,
+        "IsReadOnly": false,        
         "Variant": "Text",
         "GridPosition": {
           "xs": 12,
           "sm": 12,
           "md": 12,
           "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "App Name is Required."
         }
       },
 

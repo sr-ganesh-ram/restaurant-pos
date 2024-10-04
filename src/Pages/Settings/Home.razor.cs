@@ -28,6 +28,9 @@ public partial class Home : ComponentBase
             case "currency":
                 dialog = DialogService.ShowAsync<CurrencyDialog>("Currency", options);
                 break;
+            case "tax":
+                dialog = DialogService.ShowAsync<TaxDialog>("Tax", options);
+                break;
         }
 
         return dialog;

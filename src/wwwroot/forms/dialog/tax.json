@@ -1,6 +1,6 @@
 ﻿[
   {
-    "Card": "outgoing-mail",
+    "Card": "tax",
     "Elevation": 0,
     "Style": "",
     "Spacing": 2,
@@ -48,12 +48,11 @@
     "Fields": [
 
       {
-        "FieldName": "Currency",
-        "Label": "Currency Symbol",
-        "Placeholder": "Currency eg. $, ₹",
+        "FieldName": "Tax Id",
+        "Label": "Tax Id",
         "InputType": "Text",
-        "Adornment": "None",        
-        "MaxLength": 3,
+        "Adornment": "None",
+        "MaxLength": 210,
         "IsReadOnly": false,
         "Variant": "Text",
         "GridPosition": {
@@ -64,9 +63,52 @@
         },
         "Validation": {
           "IsRequired": true,
-          "RequiredError": "Currency is Required."
+          "RequiredError": "Tax Id is Required."
+        }
+      },
+
+      {
+        "FieldName": "CGST",
+        "Label": "CGST %",
+        "InputType": "Numeric",
+        "Adornment": "Start",
+        "AdornmentIcon": "material-symbols-outlined/percent",
+        "MaxLength": 2,
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "CGST is Required."
+        }
+      },
+
+      {
+        "FieldName": "SGST",
+        "Label": "SGST %",
+        "InputType": "Numeric",
+        "Adornment": "Start",
+        "AdornmentIcon": "material-symbols-outlined/percent",
+        "MaxLength": 2,
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "SGST is Required."
         }
       }
+      
     ]
   }
 ]
