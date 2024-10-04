@@ -21,20 +21,24 @@
       "url": "favicon.png"
     },
     {
-      "hash": "sha256-v0o76H2g32HGgUGe1EtIPcXBK++HgbxGTRfCOn27y8w=",
+      "hash": "sha256-Z+DLG0d0YlSa8kJ+33dzUaUm6zIjf9CCR807Q\/5hUgg=",
       "url": "forms\/dialog\/appearance.json"
     },
     {
-      "hash": "sha256-X2aFHXSv4U3uNwLjkD5qzG8eAYIYq4WQompIiRaDc9o=",
+      "hash": "sha256-CpG7D09QIFAiDOokQFQjM5jjKWkoovXZa+mgoI+7tlA=",
       "url": "forms\/dialog\/currency.json"
     },
     {
-      "hash": "sha256-5zb0lfnhFWMc8YjnmL9028PjV9Qo9KqaX78yqbE7IHY=",
+      "hash": "sha256-C5ylRL\/tsorhDFmdZrSVJ2\/nITQOh+e7WSjKebrFMFQ=",
       "url": "forms\/dialog\/general-settings.json"
     },
     {
-      "hash": "sha256-g5poimjkmIDUwWGXDQ5CUAU4Zqf1t6d\/lzm7KSo+jks=",
+      "hash": "sha256-GLPeVvTOkS6GZpcV74gEInNHy\/BZy01XpAzfzoOZcJw=",
       "url": "forms\/dialog\/outgoing-mail.json"
+    },
+    {
+      "hash": "sha256-mScrKaCoon8+8NACiPC1cnPk1BVwKvBqVBeP1Rz9OTA=",
+      "url": "forms\/dialog\/tax.json"
     },
     {
       "hash": "sha256-mt7V\/yUC7DMM3QrMEK0j3lMW9lC2VIsAReO26Atmkmw=",
@@ -105,7 +109,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-voFrQEbUnwvsIANuRZqYAmhQzbvkXCFLKIao7M0AhJw=",
+      "hash": "sha256-D8uhX7SBKDRVKQkvZ7SYQos\/eplt+C5FP9IrvQcpwD0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -113,7 +117,7 @@
       "url": "_framework\/dotnet.native.8.0.8.0m9y57rud2.js"
     },
     {
-      "hash": "sha256-qdlcztwS5r3ajRYM2c7MiuTp1Swd93YHj0UxjbV1blc=",
+      "hash": "sha256-kFuhblDTwxX1cDoMtlroGvpRSMyRB8ctXNo\/0Dyuzrg=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
@@ -201,7 +205,7 @@
       "url": "_framework\/MudBlazor.wasm"
     },
     {
-      "hash": "sha256-Ov2bgOQZvAfhph3q0xA+sZ5vwhMoPxjLoy0OoiUxkds=",
+      "hash": "sha256-uccIRbfFoJE+jKDBTsLnz5i7Vn9Zu0\/xoCmqL0OibEU=",
       "url": "_framework\/Restaurant.Template.wasm"
     },
     {
@@ -341,5 +345,5 @@
       "url": "_content\/Blazor.UI.FormGenerator\/Blazor.UI.FormGenerator.bundle.scp.css"
     }
   ],
-  "version": "2Vj8lJEN"
+  "version": "stg86nJX"
 };

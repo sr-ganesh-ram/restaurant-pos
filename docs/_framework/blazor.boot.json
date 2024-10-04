@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Restaurant.Template",
   "resources": {
-    "hash": "sha256-sfXti/XgNUEexAW810DJYbUCaisK1p4vihmeHq7/ugQ=",
+    "hash": "sha256-YFeWvSdFUk/mUK/tVq1f9f0WKJP23Vq75agVhA4otVY=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.0m9y57rud2.js": "sha256-nhdebi+eal4qX4Gdyb6OhVVpAVtk6y7lWRhHX4zmBD0="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.8.80cvijctdx.js": "sha256-0Dpj/NkVD5WqSC16ZvJLmlc38iv9+Je+umYBVOycPVU="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-qdlcztwS5r3ajRYM2c7MiuTp1Swd93YHj0UxjbV1blc="
+      "dotnet.native.wasm": "sha256-kFuhblDTwxX1cDoMtlroGvpRSMyRB8ctXNo/0Dyuzrg="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -38,7 +38,7 @@
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-sLSiCKh0RQEV/2cl05tr7wOLWzExQfPZovvpqYLJduQ=",
       "MudBlazor.ThemeManager.wasm": "sha256-NVGcDSBisCvlz1E3GzE2MZ0/jXWjufCbiODKSL9HJ6A=",
       "MudBlazor.wasm": "sha256-2L00c7/hKI8F+jHft6EFaO4l0O68M8EsUzr1Y5iWe0Y=",
-      "Restaurant.Template.wasm": "sha256-Ov2bgOQZvAfhph3q0xA+sZ5vwhMoPxjLoy0OoiUxkds=",
+      "Restaurant.Template.wasm": "sha256-uccIRbfFoJE+jKDBTsLnz5i7Vn9Zu0/xoCmqL0OibEU=",
       "System.Collections.Concurrent.wasm": "sha256-S1UuH9bGBkp9mYJsuSv1sud02itFdimsPHNB93KD8W0=",
       "System.Collections.Immutable.wasm": "sha256-bcNaomI4NSkrXiX23oL/VicFLBlTRwuiy3XqGE1/GJo=",
       "System.Collections.wasm": "sha256-EgCDQVG77otqLiovYPslUJ3dBJWV+czygpOCA2RxGtY=",
