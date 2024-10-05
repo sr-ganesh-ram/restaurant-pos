@@ -1,0 +1,44 @@
+﻿@inject ILogger<AppearanceDialog> Logger
+<!-- Ref: https://www.w3schools.com/charsets/ref_utf_basic_latin.asp  -->
+
+<MudDialog Class="ma-4" Style="display: block; overflow: auto;">
+    <TitleContent>
+        <MudText Typo="Typo.h6">
+            <MudIcon Color="Color.Default"
+                     Size="Size.Large"
+                     Icon="@Icons.Material.Filled.QuestionMark"
+                     Class="mr-3 mb-n1" />
+            About 
+        </MudText>
+    </TitleContent>
+    <DialogContent>
+
+        <MudText Color="Color.Surface" Typo="Typo.h5">Version 0.0.7</MudText>
+        <MudText Color="Color.Primary" Typo="Typo.h6">What's New?</MudText>
+        <MudText Typo="Typo.body2">
+            <ul>
+                <li>
+                    <span style='font-size:25px;'>&#45;</span>
+                    Settings
+                </li>
+            </ul>
+        </MudText>
+
+        <MudText Color="Color.Error" Typo="Typo.h6">Issues Fixed</MudText>
+        <MudText Typo="Typo.body2">
+            <ul>
+                <li>None</li>
+            </ul>
+        </MudText>
+    </DialogContent>
+    <DialogActions>        
+        <MudButton Color="Color.Primary" OnClick="Submit">Close</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code{
+    [CascadingParameter]
+    private MudDialogInstance MudDialog { get; set; }
+    private void Submit() => MudDialog.Close(DialogResult.Ok(true));
+
+}

@@ -31,6 +31,12 @@ public partial class Home : ComponentBase
             case "tax":
                 dialog = DialogService.ShowAsync<TaxDialog>("Tax", options);
                 break;
+            case "authentication":
+                dialog = DialogService.ShowAsync<AuthenticationDialog>("Authentication", options);
+                break;
+            case "invoice-printing":
+                dialog = DialogService.ShowAsync<InvoicePrintingDialog>("Invoice Printing Configuration", options);
+                break;
         }
 
         return dialog;

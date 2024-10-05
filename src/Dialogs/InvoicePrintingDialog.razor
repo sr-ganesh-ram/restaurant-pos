@@ -1,0 +1,23 @@
+﻿@inject ILogger<GeneralSettingsDialog> Logger
+
+<MudDialog Class="ma-4" Style="display: block; overflow: auto;">
+    <TitleContent>
+        <MudText Typo="Typo.h6">
+            <MudIcon Color="Color.Default" 
+                     Size="Size.Large"
+                     Icon="@Icons.Material.Filled.Receipt" 
+                     Class="mr-3 mb-n1"/>
+            @MudDialog.Title
+        </MudText>
+    </TitleContent>
+    <DialogContent>
+        @if (_formBuilders is not null)
+        {
+            <DynamicMudForm @ref="_dynamicMudFrom" FormBuilders="_formBuilders"/>
+        }
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="CancelAction">Cancel</MudButton>
+        <MudButton Color="Color.Primary" OnClick="SubmitButton_Click">Save</MudButton>
+    </DialogActions>
+</MudDialog>

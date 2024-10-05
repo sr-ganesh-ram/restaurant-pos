@@ -48,7 +48,7 @@
     "Fields": [
 
       {
-        "FieldName": "Tax Id",
+        "FieldName": "TaxId",
         "Label": "Tax Id",
         "InputType": "Text",
         "Adornment": "None",

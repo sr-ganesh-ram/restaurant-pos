@@ -1,0 +1,332 @@
+﻿[
+  {
+    "Card": "tax",
+    "Elevation": 0,
+    "Style": "",
+    "Spacing": 2,
+    "Outlined": true,
+    "Class": "ma-4",
+    "GridPosition": {
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12
+    },
+    "Header": {
+      "Enable": false,
+      "Divider": false,
+      "Avatar": {
+        "Enable": true,
+        "Color": "Primary",
+        "Icon": "Material.Filled.AcUnit",
+        "Variant": "Outlined"
+      },
+      "Content": {
+        "Enable": true,
+        "Title": "Student Details",
+        "SubTitle": "This Panel displays the Student details."
+      },
+      "CardAction": {
+        "Enable": true,
+        "Color": "Primary",
+        "Icon": "Material.Filled.AddCircle"
+      }
+    },
+    "Footer": {
+      "Enable": false,
+      "CustomClass": "d-flex justify-end flex-grow-1 gap-2",
+      "EnableCancel": true,
+      "CancelText": "Cancel",
+      "CancelColor": "Secondary",
+      "CancelVariant": "Text",
+      "EnableSubmit": true,
+      "SubmitText": "Save",
+      "SubmitColor": "Primary",
+      "SubmitVariant": "Filled"
+    },
+
+    "Fields": [
+
+      {
+        "FieldName": "AddressPosition",
+        "Label": "Print Address Postion",
+        "InputType": "Select",
+        "SelectItemList": [
+          {"Text":"Center","Value":"Center"},
+          {"Text":"Left","Value":"Left"},
+          {"Text":"Right","Value":"Right"}
+        ],
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 4,
+          "md": 4,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+      
+      {
+        "FieldName": "FontFamily",
+        "Label": "Print Font Family",
+        "InputType": "Select",
+        "SelectItemList": [
+          {"Text":"Random","Value":"Random"},
+          {"Text":"Monospace","Value":"Monospace"},
+          {"Text":"Robato","Value":"Robato"},
+          {"Text":"Tenorite","Value":"Tenorite"},
+          {"Text":"Abadi","Value":"Abadi"}
+        ],
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 4,
+          "md": 4,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+
+      {
+        "FieldName": "FontColor",
+        "Label": "Print Font Color",
+        "InputType": "ColorCompact",        
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 4,
+          "md": 4,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+      
+      {
+        "FieldName": "Divider",
+        "Label": "Divider",
+        "InputType": "Divider",        
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        }
+      },
+
+      {
+        "FieldName": "HeaderFontSize",
+        "Label": "Print Header Font Size",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 2,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 3,
+          "md": 3,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+      
+      {
+        "FieldName": "ItemFontSize",
+        "Label": "Print Item Font Size Mobile",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 2,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 3,
+          "md": 3,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+      
+      {
+        "FieldName": "AddressFontSize",
+        "Label": "Print Address Font Size",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 2,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 3,
+          "md": 3,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+
+      {
+        "FieldName": "TermConditionFontSize",
+        "Label": "Print Terms and Condion Font Size",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 2,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 3,
+          "md": 3,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+
+      {
+        "FieldName": "Height",
+        "Label": "Print Height",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 2,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 3,
+          "md": 3,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+
+      {
+        "FieldName": "Width",
+        "Label": "Print Width",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 2,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 3,
+          "md": 3,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+
+      {
+        "FieldName": "TermCondition",
+        "Label": "Terms & Conditions",
+        "InputType": "Multiline",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "Lines": 5,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+
+      {
+        "FieldName": "InvoiceTitle",
+        "Label": "Invoice Title",
+        "InputType": "Text",
+        "Adornment": "None",
+        "MaxLength": 180,
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+      
+      {
+        "FieldName": "SignatureRequired",
+        "Label": "Signature Required",
+        "InputType": "CheckBox",
+        "Adornment": "None",
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 6,
+          "md": 6,
+          "lg": 6
+        }
+      },
+
+      {
+        "FieldName": "AutoPrint",
+        "Label": "Enable Auto Print",
+        "InputType": "CheckBox",        
+        "Adornment": "None",
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 6,
+          "md": 6,
+          "lg": 6
+        }
+      },
+
+      {
+        "FieldName": "AlertMessage",
+        "Label": "All Configured information will be reflected while printing invoice.",
+        "InputType": "Alert",        
+        "TitleAlign": "justify-start",
+        "Severity": "Normal",
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        }
+      }
+    ]
+  }
+]

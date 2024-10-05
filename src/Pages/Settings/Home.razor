@@ -3,7 +3,7 @@
 
 @implements IDisposable
 
-<PageTitle>Settings</PageTitle>
+<PageTitle>Restaurant - Settings</PageTitle>
 
 <MudGrid>
     <MudItem xs="12" md="3" sm="6" lg="2">
@@ -101,6 +101,22 @@
         <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
             <MudStack Row="false" Style="align-items: center">
                 <MudButton Variant="Variant.Filled"
+                           OnClick='()=> NavigateClicked("invoice-printing")'>
+                    <MudIcon Icon="@Icons.Material.TwoTone.Print"
+                             Color="Color.Default"
+                             Style="font-size: 6rem;"/>
+                </MudButton>
+                <MudText Typo="Typo.h6">Invoice Printing</MudText>
+                <MudText Typo="Typo.body2">Configure Printing settings for the sales invoice.</MudText>
+            </MudStack>
+        </MudPaper>
+    </MudItem>
+    
+    @*
+     <MudItem xs="12" md="3" sm="6" lg="2">
+        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
+            <MudStack Row="false" Style="align-items: center">
+                <MudButton Variant="Variant.Filled"
                            OnClick='()=> NavigateClicked("captcha")'>
                     <MudIcon Icon="@Icons.Material.TwoTone.Password"
                              Color="Color.Default"
@@ -126,20 +142,6 @@
             </MudStack>
         </MudPaper>
     </MudItem>
-
-    <MudItem xs="12" md="3" sm="6" lg="2">
-        <MudPaper Outlined="true" Class="ma-2 pa-4 d-flex justify-center flex-grow-1 gap-1">
-            <MudStack Row="false" Style="align-items: center">
-                <MudButton Variant="Variant.Filled"
-                           OnClick='()=> NavigateClicked("invoice-printing")'>
-                    <MudIcon Icon="@Icons.Material.TwoTone.Print"
-                             Color="Color.Default"
-                             Style="font-size: 6rem;"/>
-                </MudButton>
-                <MudText Typo="Typo.h6">Invoice Printing</MudText>
-                <MudText Typo="Typo.body2">Configure Printing settings for the sales invoice.</MudText>
-            </MudStack>
-        </MudPaper>
-    </MudItem>
+    *@
     
 </MudGrid>

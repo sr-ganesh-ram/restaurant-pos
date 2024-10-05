@@ -1,5 +1,6 @@
 ﻿using MudBlazor;
 using MudBlazor.ThemeManager;
+using Restaurant.Template.Dialogs;
 
 namespace Restaurant.Template.Layout;
 public partial class MainLayout
@@ -80,6 +81,13 @@ public partial class MainLayout
         true => Icons.Material.Rounded.AutoMode,
         false => Icons.Material.Outlined.DarkMode,
     };
+
+    void OpenAboutDialog()
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+        Task<IDialogReference> dialog = null;
+        dialog = DialogService.ShowAsync<AboutDialog>("Restaurant POS", options);
+    }
 
     #region Theme Configuration
 
