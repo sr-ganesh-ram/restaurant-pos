@@ -1,0 +1,10 @@
+@import '_content/Blazor.Shared.FormGenerator/Blazor.Shared.FormGenerator.bundle.scp.css';
+@import '_content/Blazor.UI.FormGenerator/Blazor.UI.FormGenerator.bundle.scp.css';
+
+/* _content/Restaurant.Peoples/Component1.razor.rz.scp.css */
+.my-component[b-mgyjwvl2av] {
+    border: 2px dashed red;
+    padding: 1em;
+    margin: 1em 0;
+    background-image: url('background.png');
+}

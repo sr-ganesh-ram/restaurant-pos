@@ -1,6 +1,8 @@
-﻿using MudBlazor;
+﻿using Microsoft.JSInterop;
+using MudBlazor;
 using MudBlazor.ThemeManager;
 using Restaurant.Template.Dialogs;
+using Restaurant.Template.Utility;
 
 namespace Restaurant.Template.Layout;
 public partial class MainLayout
@@ -15,10 +17,12 @@ public partial class MainLayout
         set;
     }
 
-    protected override void OnInitialized()
+    protected async override void OnInitialized()
     {
-        base.OnInitialized();
-
+        await _PeriodicExecutor.StartExecutingAsync();
+        _PeriodicExecutor.JobStarted += HandleJobStarted;
+        _PeriodicExecutor.JobExecuted += HandleJobExecuted;
+        
         _theme = new()
         {
             PaletteLight = _lightPalette,
@@ -26,7 +30,11 @@ public partial class MainLayout
             LayoutProperties = new LayoutProperties()
         };
         StateHasChanged();
+        base.OnInitialized();
     }
+
+    #region Dark Mode
+
     private void DarkModeToggle()
     {
         _isDarkMode = !_isDarkMode;
@@ -75,13 +83,15 @@ public partial class MainLayout
         Divider = "#292838",
         OverlayLight = "#1e1e2d80",
     };
-
     public string DarkLightModeButtonIcon => _isDarkMode switch
     {
         true => Icons.Material.Rounded.AutoMode,
         false => Icons.Material.Outlined.DarkMode,
     };
 
+
+    #endregion
+    
     void OpenAboutDialog()
     {
         var options = new DialogOptions { CloseOnEscapeKey = true };
@@ -106,6 +116,41 @@ public partial class MainLayout
     }
 
 
+    #endregion
+
+
+    #region Invoked from JavaScript when Browser is idle
+
+   /* [JSInvokable]
+    public static Task HandleIdleTime()
+    {
+        // Handle idle time event here
+        Console.WriteLine("Triggered from MainLayout: User has been idle for 1 minute.");
+        return Task.CompletedTask;
+    }
+    */
+    public void Dispose()
+    {
+        _PeriodicExecutor.JobExecuted -= HandleJobExecuted;
+        _PeriodicExecutor.JobStarted -= HandleJobStarted;
+    }
+
+    string JobNotification;
+    private Color SyncIconColor { get; set; } = Color.Inherit;
+    void HandleJobExecuted(object sender, JobExecutedEventArgs e)
+    {
+        SyncIconColor = Color.Inherit;
+        JobNotification = $"Job Executed: {DateTime.Now}";
+        Logger.LogInformation(JobNotification);
+        StateHasChanged();
+    }
+    void HandleJobStarted(object sender, JobStartEventArgs e)
+    {
+        SyncIconColor = Color.Success;
+        JobNotification = $"Job Started: {DateTime.Now}";
+        Logger.LogInformation(JobNotification);
+        StateHasChanged();
+    }
     #endregion
 }
 

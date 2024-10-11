@@ -1,0 +1,9 @@
+﻿
+@inject ILogger<Ingredients> Logger
+
+<MudContainer>
+    @if (_formBuilders is not null)
+    {
+        <DynamicMudForm @ref="_dynamicMudFrom" FormBuilders="_formBuilders"/>
+    }
+</MudContainer>

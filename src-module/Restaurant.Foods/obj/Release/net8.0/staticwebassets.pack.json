@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurant.Foods\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\Restaurant.Foods.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Restaurant.Foods.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurant.Foods\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurant.Foods\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurant.Foods\\wwwroot\\forms\\ingredient.json",
+      "PackagePath": "staticwebassets\\forms\\ingredient.json"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.Restaurant.Foods.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.Restaurant.Foods.props",
+      "PackagePath": "build\\Restaurant.Foods.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Restaurant.Foods.props",
+      "PackagePath": "buildMultiTargeting\\Restaurant.Foods.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.Restaurant.Foods.props",
+      "PackagePath": "buildTransitive\\Restaurant.Foods.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

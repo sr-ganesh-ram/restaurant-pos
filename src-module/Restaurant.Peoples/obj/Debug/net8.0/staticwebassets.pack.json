@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurant.Peoples\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Restaurant.Peoples.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Restaurant.Peoples.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurant.Peoples\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurant.Peoples\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Restaurant.Peoples.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Restaurant.Peoples.props",
+      "PackagePath": "build\\Restaurant.Peoples.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Restaurant.Peoples.props",
+      "PackagePath": "buildMultiTargeting\\Restaurant.Peoples.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Restaurant.Peoples.props",
+      "PackagePath": "buildTransitive\\Restaurant.Peoples.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurants.AdvancedSettings\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Restaurants.AdvancedSettings.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Restaurants.AdvancedSettings.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurants.AdvancedSettings\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Works\\MyGit\\restaurant-pos\\src-module\\Restaurants.AdvancedSettings\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Restaurants.AdvancedSettings.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Restaurants.AdvancedSettings.props",
+      "PackagePath": "build\\Restaurants.AdvancedSettings.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Restaurants.AdvancedSettings.props",
+      "PackagePath": "buildMultiTargeting\\Restaurants.AdvancedSettings.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Restaurants.AdvancedSettings.props",
+      "PackagePath": "buildTransitive\\Restaurants.AdvancedSettings.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

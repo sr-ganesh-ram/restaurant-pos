@@ -5,20 +5,35 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
-    <AssemblyVersion>0.0.7</AssemblyVersion>
-    <FileVersion>0.0.7</FileVersion>
+    <AssemblyVersion>0.0.8</AssemblyVersion>
+    <FileVersion>0.0.8</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Blazor.UI.FormGenerator" Version="0.0.2" />
+    <PackageReference Include="Blazor.UI.FormGenerator" Version="0.0.2.*" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.*" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.*" PrivateAssets="all" />
     <PackageReference Include="MudBlazor" Version="7.*" />
-    <PackageReference Include="MudBlazor.ThemeManager" Version="2.1.0" />
+    <PackageReference Include="MudBlazor.ThemeManager" Version="2.1.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src-module\Restaurant.Expenses\Restaurant.Expenses.csproj" />
+    <ProjectReference Include="..\src-module\Restaurant.Peoples\Restaurant.Peoples.csproj" />
+    <ProjectReference Include="..\src-module\Restaurant.Portals\Restaurant.Portals.csproj" />
+    <ProjectReference Include="..\src-module\Restaurant.Reports\Restaurant.Reports.csproj" />
+    <ProjectReference Include="..\src-module\Restaurants.AdvancedSettings\Restaurants.AdvancedSettings.csproj" />
+    <ProjectReference Include="..\src-module\Restaurant.Foods\Restaurant.Foods.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LiteDB.WebAssembly">
+      <HintPath>reference-library\LiteDB.WebAssembly\LiteDB.WebAssembly.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

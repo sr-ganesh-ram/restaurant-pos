@@ -18,7 +18,7 @@
       "Avatar": {
         "Enable": true,
         "Color": "Primary",
-        "Icon": "Material.Filled.AcUnit",
+        "Icon": "material-symbols-outlined/cooking",
         "Variant": "Outlined"
       },
       "Content": {

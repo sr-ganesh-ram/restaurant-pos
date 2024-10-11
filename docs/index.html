@@ -6,6 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <title>Restaurant - POS</title>
+    <script>
+        /*let idleTime = 0;
+        let idleInterval = null;
+        function resetTimer() {
+            idleTime = 0;
+            clearInterval(idleInterval);
+            idleInterval = setInterval(() => {
+                idleTime += 1;
+                if (idleTime >= 60) { // 1 minute of inactivity
+                    console.log('Triggered from JavaScript: You have been inactive for 1 minute.')
+                    //alert('You have been inactive for 1 minute.');
+                    // Call Blazor method to handle idle time
+                    DotNet.invokeMethodAsync('Restaurant.Template', 'HandleIdleTime');
+                }
+            }, 60000); // 1 minute interval
+        }
+        //Temporarily disabled.
+        document.addEventListener('mousemove', resetTimer);
+        document.addEventListener('keypress', resetTimer);
+        resetTimer();*/
+    </script>
+
     <script type="text/javascript">
         function SetBaseScript() {
             console.log(window.location.hostname);
@@ -16,7 +38,7 @@
                 document.write("<base href='/restaurant-pos/' />");
             }
         }
-        SetBaseScript();
+        SetBaseScript();        
     </script>
     <!-- MudBlazor Icon does not works dynamially through constant hence we use direct icons from 'Google Fonts Material' -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />

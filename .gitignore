@@ -5,3 +5,8 @@
 /src/bin
 /src/obj
 /src/.vs
+/Restaurant.Expenses/obj
+/Restaurant.Peoples/obj
+/Restaurant.Portals/obj
+/Restaurant.Reports/obj
+/Restaurants.AdvancedSettings/obj

@@ -37,7 +37,7 @@
       "url": "forms\/dialog\/general-settings.json"
     },
     {
-      "hash": "sha256-c9PfAFaJtkIGwO3bpxuzUlQeCdeCwFODoXHQ\/ZBikPQ=",
+      "hash": "sha256-Pp+pXmOCkjZcYnylHnbUXDoBywGAw7VKFWZr+EtfHpc=",
       "url": "forms\/dialog\/invoice-printing.json"
     },
     {
@@ -77,8 +77,12 @@
       "url": "img\/logo\/tea-egg.png"
     },
     {
-      "hash": "sha256-xra5AGxhTk0lnJgqOxrM+qNzeqhdJ3kDgtbVSmUfjHM=",
+      "hash": "sha256-I9ZMfPjA4aMtxR7pZl2eJ6kbWXyCrGX4JcUwyJCNkiU=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-3\/MtDgyTZl3f4msgiXLOOqBSJ268oLWmQ25xp+\/dWW8=",
+      "url": "js\/utility.js"
     },
     {
       "hash": "sha256-PQqJRWGcvJskuB\/s1SvYJOdBlxlSYeMHydOgpuYS244=",
@@ -89,7 +93,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-FDuUtdFZTy3Qv5idnpzzfDm45GX4btYjxeUGrjAx2Go=",
+      "hash": "sha256-WOa84Cb2HQRZfIU5sJhXtgrvKVb9TSXA8rhUpB1Qmrg=",
       "url": "Restaurant.Template.styles.css"
     },
     {
@@ -117,15 +121,15 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-+yaEL8gSnW1AyUNDTO1HjIUOwCnqe18uXfiVTdGQz\/M=",
+      "hash": "sha256-HEm5sa8FFycMWbTFw8Tktywo5M\/TKBruix0gYDWDRnQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-nhdebi+eal4qX4Gdyb6OhVVpAVtk6y7lWRhHX4zmBD0=",
+      "hash": "sha256-XVdpWi0J84n8bEj6tflHbLWFp5Rav\/FELhJqBx2SYJ8=",
       "url": "_framework\/dotnet.native.8.0.8.0m9y57rud2.js"
     },
     {
-      "hash": "sha256-juS687tyU9CXVSX5Wm9Moz+0+obXhSnHamrWD0OYqEI=",
+      "hash": "sha256-9cI\/5v0Dll9K7Ll1rtlQha4BZATf5DGZFXxyFkjCEwo=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
@@ -137,19 +141,23 @@
       "url": "_framework\/Blazor.UI.FormGenerator.wasm"
     },
     {
-      "hash": "sha256-un0mWHcNYsRjdRZz\/RwoEXZ36QV3diPGsr1753foDzQ=",
+      "hash": "sha256-s0UBGo7qcURw++viPfhmk0xFj6scqa6VxPFPwdCgJl0=",
+      "url": "_framework\/LiteDB.WebAssembly.wasm"
+    },
+    {
+      "hash": "sha256-1QyG+V9dCcY96uRZWmy+6ZUr0aVy5OdPgZCPZc2R5gQ=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Forms.wasm"
     },
     {
-      "hash": "sha256-S6z2EXgg+GRw\/RbZFE3xXitwzoOndPaUVpcQVk6Lyjk=",
+      "hash": "sha256-P0qrYSyRFPSG4ysrl0K\/OiFgwFqxRFhCq5ReYE+Ykus=",
       "url": "_framework\/Microsoft.AspNetCore.Components.wasm"
     },
     {
-      "hash": "sha256-NOE8spSJnToFbBWEex2EWH1TwL\/OPXxBMXukD3YYlj0=",
+      "hash": "sha256-G3aKu5JietlO6odgDxZ6RHZWKVlBzYmhyGcuyTTgU48=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
-      "hash": "sha256-XyPST+XDm2N6dDwFzGjcMGs0t9ZrFREy0DHQOSvJmWs=",
+      "hash": "sha256-CFZR\/hHrLEGmG4LaOaiLOwmef2si\/WAag9sJnUCO+M8=",
       "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.wasm"
     },
     {
@@ -157,7 +165,7 @@
       "url": "_framework\/Microsoft.Extensions.Configuration.Abstractions.wasm"
     },
     {
-      "hash": "sha256-Sxmy2ZS134URxbHEvdbS6NcQ3zXS7UWx\/5ZPpwiW7FA=",
+      "hash": "sha256-\/VUEfhgVp9FCU1rXnSNAI1mtW6EO5DpkV\/5UNWDR\/es=",
       "url": "_framework\/Microsoft.Extensions.Configuration.Json.wasm"
     },
     {
@@ -165,11 +173,11 @@
       "url": "_framework\/Microsoft.Extensions.Configuration.wasm"
     },
     {
-      "hash": "sha256-3gUlQhl12aWOu5P\/K\/XVWg4pOPIzM8Fl8OINzNdM0d0=",
+      "hash": "sha256-AE2JaFQQTye8Nk1sSaH9wthJ7M1yprT76MpqH4VGSso=",
       "url": "_framework\/Microsoft.Extensions.DependencyInjection.Abstractions.wasm"
     },
     {
-      "hash": "sha256-gg8xZqJsBBrrNEyUGzYqhL3sqkuZ4AHAvdTdL9nZ0S0=",
+      "hash": "sha256-T\/+qPF0RWC8dfbLNFgoTfla+JM2H3eY5L17aqODwzFc=",
       "url": "_framework\/Microsoft.Extensions.DependencyInjection.wasm"
     },
     {
@@ -181,11 +189,11 @@
       "url": "_framework\/Microsoft.Extensions.Localization.wasm"
     },
     {
-      "hash": "sha256-34aZ9ePrsUJG\/RIWfBCGHAeKkBT7Dzbj4diZHhK8x4U=",
+      "hash": "sha256-QDPGFdAVzHgarpdYeBpA4t4kqYU+95IUC6VHbtmoiD4=",
       "url": "_framework\/Microsoft.Extensions.Logging.Abstractions.wasm"
     },
     {
-      "hash": "sha256-8BH+kQfjYuZWxprOICXJ4+tU0OdJOYDKN7G0S3zYYHI=",
+      "hash": "sha256-gRNqDIITN9\/LJz459bgijHJ1O+l5fzsybyrFhw0Iqa4=",
       "url": "_framework\/Microsoft.Extensions.Logging.wasm"
     },
     {
@@ -197,35 +205,63 @@
       "url": "_framework\/Microsoft.Extensions.Primitives.wasm"
     },
     {
-      "hash": "sha256-2K\/agzfTpvTMAFZP8yEoJpBMkPM35hTDXEGTVmFoCC8=",
+      "hash": "sha256-sEco4TS\/xC++WUciN8XRfZXgnl0Wr47FGaAuU3LicfA=",
       "url": "_framework\/Microsoft.JSInterop.wasm"
     },
     {
-      "hash": "sha256-sLSiCKh0RQEV\/2cl05tr7wOLWzExQfPZovvpqYLJduQ=",
+      "hash": "sha256-r\/+bWAAxKn2+Wu3MRYDXvKEbHjLNuptflgNuNhQdK6w=",
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-NVGcDSBisCvlz1E3GzE2MZ0\/jXWjufCbiODKSL9HJ6A=",
+      "hash": "sha256-nHMLroXZkxj7EdyM66DhW57DMsrhc7qmJojqasV+qlk=",
       "url": "_framework\/MudBlazor.ThemeManager.wasm"
     },
     {
-      "hash": "sha256-Q\/RorvjgSYLIMTzPzDNybTSMhKvlasHqDQ3jKUMj2N8=",
+      "hash": "sha256-DTBIzL1D6CmyFi6ZZXRqkKJTJpGtdlz+5IoWE+vDDDI=",
       "url": "_framework\/MudBlazor.wasm"
     },
     {
-      "hash": "sha256-pyFD59HOOPdmNK5WmAL14Hpq7iMHO8WsJwWJ4kP1jbw=",
+      "hash": "sha256-TvfTV04on8YEIsq1Etm0Kw3\/0yfHYhwcPnTsjJMMDuo=",
+      "url": "_framework\/Restaurant.Expenses.wasm"
+    },
+    {
+      "hash": "sha256-LqWQLaOjfZGWqvXGk7NM6eyTX0T\/7r+G29QXYGeqq\/8=",
+      "url": "_framework\/Restaurant.Foods.wasm"
+    },
+    {
+      "hash": "sha256-Rd00zOJfUHWN1c9+cbRii\/94kbKy1QomTG5gLtV0sh8=",
+      "url": "_framework\/Restaurant.Peoples.wasm"
+    },
+    {
+      "hash": "sha256-6mWaXWV44fqd+20QwjWHE1raRDc9Sir8UmKCOxzTe\/Q=",
+      "url": "_framework\/Restaurant.Portals.wasm"
+    },
+    {
+      "hash": "sha256-11D69XfYa4lVq1ox0WywFzjybwT+cYjcQhK1UUafX7s=",
+      "url": "_framework\/Restaurant.Reports.wasm"
+    },
+    {
+      "hash": "sha256-Mo0rdGdsnx8v\/4Jpn2H+dAbSgnTh2wOE+Ggx8IUF1IM=",
       "url": "_framework\/Restaurant.Template.wasm"
     },
     {
-      "hash": "sha256-S1UuH9bGBkp9mYJsuSv1sud02itFdimsPHNB93KD8W0=",
+      "hash": "sha256-WfAY2MWc6umbMFLseaTdlN5o8RjslWdRX6zzdJnOwUA=",
+      "url": "_framework\/Restaurants.AdvancedSettings.wasm"
+    },
+    {
+      "hash": "sha256-0fmTQjUYowaKE2Rf0J1E5BuWOaWtr+JdorQR5uFqeQY=",
       "url": "_framework\/System.Collections.Concurrent.wasm"
     },
     {
-      "hash": "sha256-bcNaomI4NSkrXiX23oL\/VicFLBlTRwuiy3XqGE1\/GJo=",
+      "hash": "sha256-ziZNtHiKh859IKtnyZVZOLP34sZfQdyV7kXhPdJ+GcA=",
       "url": "_framework\/System.Collections.Immutable.wasm"
     },
     {
-      "hash": "sha256-EgCDQVG77otqLiovYPslUJ3dBJWV+czygpOCA2RxGtY=",
+      "hash": "sha256-2RdRxvrUcMKtYTee2q1Hr7b8IX+TuyPEwzLQIouwx2M=",
+      "url": "_framework\/System.Collections.Specialized.wasm"
+    },
+    {
+      "hash": "sha256-\/9Moqsd6ZMq5+KEMtRmd1y3kZlc0AR0\/dIrUiysoaxQ=",
       "url": "_framework\/System.Collections.wasm"
     },
     {
@@ -237,7 +273,7 @@
       "url": "_framework\/System.ComponentModel.Primitives.wasm"
     },
     {
-      "hash": "sha256-9\/\/A0w7LQgbrmLs2yLrvHxURto\/z+q0iMZpI3huemCk=",
+      "hash": "sha256-H2Vw6v4W9eDtnh1x9Ychn6+wsuXC01xtxAB2fNNpUWo=",
       "url": "_framework\/System.ComponentModel.TypeConverter.wasm"
     },
     {
@@ -245,31 +281,35 @@
       "url": "_framework\/System.ComponentModel.wasm"
     },
     {
-      "hash": "sha256-heCGJ9mte8z3GE0g5E8o0BGtd\/33BhGS3IGtgXSExB0=",
+      "hash": "sha256-0Njw8PHQTq+EvJUoSYmUZbPn0vUNsyBYOdzfez6ZWkI=",
       "url": "_framework\/System.Console.wasm"
     },
     {
-      "hash": "sha256-QO3o0\/xf668ff\/F5Y6JmoEB66bnsH4utnoY78B18qQk=",
+      "hash": "sha256-c5Wztan+uxz1SGG6NtZ6R6hXmWzmNAfdrfEyCP9kCWc=",
       "url": "_framework\/System.Diagnostics.DiagnosticSource.wasm"
     },
     {
-      "hash": "sha256-x1j17Qzn2PyGVEDPeFG9tvcjEdBC4ALx8kdZqT9Uf1E=",
+      "hash": "sha256-gFRkkhN28V0Mr3zQw3H4ay3Ik7\/8QTPfTmOP4EOrXCc=",
+      "url": "_framework\/System.Diagnostics.Process.wasm"
+    },
+    {
+      "hash": "sha256-ORnzXIgDO9nEq1ETZVC6GhcFSxfd+NfCANzMLKDmRwM=",
       "url": "_framework\/System.Linq.Expressions.wasm"
     },
     {
-      "hash": "sha256-sOPqhhuoHuSn3lhPDoJNevpHJwwBHk\/4CRJ9eiw0U54=",
+      "hash": "sha256-GRnH67z0rtdLH6D5C3TqFxqiR194TrQTwfIG6d5LDk4=",
       "url": "_framework\/System.Linq.wasm"
     },
     {
-      "hash": "sha256-8Q6W3g73FF1wGgUUjhhdhMv5Gr7WWHsjgYxoAlkOpBY=",
+      "hash": "sha256-vls+IFbXkLW+ddrQU0sCL4ga+qZjWRqYjIJq72f9ydM=",
       "url": "_framework\/System.Memory.wasm"
     },
     {
-      "hash": "sha256-3bW8kRcdjuU6qJ4KfJtKvffShSQtAgTeL7ouij6KeBQ=",
+      "hash": "sha256-OKfOjj4YDJZFCX2cHfjfsc2KiBeHkqLBliUViFYkIIY=",
       "url": "_framework\/System.Net.Http.Json.wasm"
     },
     {
-      "hash": "sha256-pvgQn6x\/fHKYO43ASorAouszTnE6QpmKtMiNSkVNlKQ=",
+      "hash": "sha256-sEUFuN1Al+lL51euUVRgTTdXXbCJHyO1qZbmfovmO+4=",
       "url": "_framework\/System.Net.Http.wasm"
     },
     {
@@ -281,7 +321,7 @@
       "url": "_framework\/System.ObjectModel.wasm"
     },
     {
-      "hash": "sha256-MHn1+lRAckMUu2sBGdA9l1C4+tZbOjpPtjrKsgvwARc=",
+      "hash": "sha256-XHLE3XykgL+q8B3HOkCF0kryxV3FngUQhRPvTfl3nTE=",
       "url": "_framework\/System.Private.CoreLib.wasm"
     },
     {
@@ -293,20 +333,32 @@
       "url": "_framework\/System.Runtime.InteropServices.JavaScript.wasm"
     },
     {
-      "hash": "sha256-FmkAujTONgakF5Wk3GSRq9qa7g9iOf2iluTQQVFOJQQ=",
+      "hash": "sha256-pCBQQeIzU6wtwFIa2tg93IcH3qt1+T31adVYfzZK0oU=",
+      "url": "_framework\/System.Runtime.InteropServices.wasm"
+    },
+    {
+      "hash": "sha256-NLMP6Q77sbo+Og8jv97KEsocAUZ7lIrRVRtAzl9b51I=",
       "url": "_framework\/System.Runtime.wasm"
+    },
+    {
+      "hash": "sha256-I5ikQlDJEYjnwkoHMRnYg5AN2nX9w8IgfJQ\/aHRSAOY=",
+      "url": "_framework\/System.Security.Cryptography.wasm"
     },
     {
       "hash": "sha256-ZFaIE23VKT7zofLq7sPTV5T0sbwyGEYbpUhuN2x5F1A=",
       "url": "_framework\/System.Text.Encodings.Web.wasm"
     },
     {
-      "hash": "sha256-YVsU9iz8H+cRWq569I\/RIobjyQOGEvQPDsBygrqyjOI=",
+      "hash": "sha256-ozu0EOxAeWOLBgq0ofjgLvf1nIcWO\/xQoWIbTeCVsrA=",
       "url": "_framework\/System.Text.Json.wasm"
     },
     {
-      "hash": "sha256-2wRvEQhgymVTM3vysA1A2CWNlx\/LY3Zarp0zV59LIfw=",
+      "hash": "sha256-9UoC\/DUdNby\/dM5OcPshtBL4SnZfVOUUGd2fHC25pBo=",
       "url": "_framework\/System.Text.RegularExpressions.wasm"
+    },
+    {
+      "hash": "sha256-QdD9tlS87Bpf\/9jy5KhEdc\/Y4WOmJGNsFSvAVIQFx\/s=",
+      "url": "_framework\/System.Threading.wasm"
     },
     {
       "hash": "sha256-ka1SPMSVGn53xDzeBa40FQCsprKEF+n+wpvvd1HyMNE=",
@@ -337,12 +389,64 @@
       "url": "_content\/MudBlazor.ThemeManager\/MudBlazorThemeManager.css"
     },
     {
-      "hash": "sha256-H2QuhIhWAAApVk0IT\/dmvJ5l167yYqO1jogUIMXAko8=",
+      "hash": "sha256-2gItJ0j\/o5RSWg7VYqCOBpSPI1dxTOG+mnEzWt7EvYw=",
       "url": "_content\/MudBlazor\/MudBlazor.min.css"
     },
     {
-      "hash": "sha256-HIgITptQO9vrBUjgNCpkzjy7f1PyNdPlVgp5bAUKUNg=",
+      "hash": "sha256-lz0Xidl9yw53lEeYs4XMU39zSRQzpCIyWOQSAG0\/0GU=",
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
+    },
+    {
+      "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
+      "url": "_content\/Restaurant.Expenses\/background.png"
+    },
+    {
+      "hash": "sha256-FrrTtczTUEHjkhc\/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "url": "_content\/Restaurant.Expenses\/exampleJsInterop.js"
+    },
+    {
+      "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
+      "url": "_content\/Restaurant.Foods\/background.png"
+    },
+    {
+      "hash": "sha256-FrrTtczTUEHjkhc\/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "url": "_content\/Restaurant.Foods\/exampleJsInterop.js"
+    },
+    {
+      "hash": "sha256-uQ\/JPhKpQNNxPAeVy7cGSB4l1YAonbZLZgh9MbcMp1I=",
+      "url": "_content\/Restaurant.Foods\/forms\/ingredient.json"
+    },
+    {
+      "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
+      "url": "_content\/Restaurant.Peoples\/background.png"
+    },
+    {
+      "hash": "sha256-FrrTtczTUEHjkhc\/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "url": "_content\/Restaurant.Peoples\/exampleJsInterop.js"
+    },
+    {
+      "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
+      "url": "_content\/Restaurant.Portals\/background.png"
+    },
+    {
+      "hash": "sha256-FrrTtczTUEHjkhc\/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "url": "_content\/Restaurant.Portals\/exampleJsInterop.js"
+    },
+    {
+      "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
+      "url": "_content\/Restaurant.Reports\/background.png"
+    },
+    {
+      "hash": "sha256-FrrTtczTUEHjkhc\/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "url": "_content\/Restaurant.Reports\/exampleJsInterop.js"
+    },
+    {
+      "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
+      "url": "_content\/Restaurants.AdvancedSettings\/background.png"
+    },
+    {
+      "hash": "sha256-FrrTtczTUEHjkhc\/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "url": "_content\/Restaurants.AdvancedSettings\/exampleJsInterop.js"
     },
     {
       "hash": "sha256-xNIB0Vn23XmuDb6INI4RlB5qqUXb2PAQnxtGSVgoY4E=",
@@ -351,7 +455,31 @@
     {
       "hash": "sha256-p+\/X1ND+rCe17AIkTqYrmwu+bdNsWFkqOpRoFCiBpAI=",
       "url": "_content\/Blazor.UI.FormGenerator\/Blazor.UI.FormGenerator.bundle.scp.css"
+    },
+    {
+      "hash": "sha256-Ovk9zCS\/cTpSM4F2CoM\/W3W4iU6v9GqbuWSwltdoHcQ=",
+      "url": "_content\/Restaurant.Expenses\/Restaurant.Expenses.bundle.scp.css"
+    },
+    {
+      "hash": "sha256-qYXRLWU1ulEmH0iDL5dUGwLjxeZF5dHKotOu8t0rv6A=",
+      "url": "_content\/Restaurant.Foods\/Restaurant.Foods.bundle.scp.css"
+    },
+    {
+      "hash": "sha256-+jD2rGBN4zNEcisnH3zsHCSpvZ4VBuIsgAnFh4scnkI=",
+      "url": "_content\/Restaurant.Peoples\/Restaurant.Peoples.bundle.scp.css"
+    },
+    {
+      "hash": "sha256-jja5ruqc8j2pHecW1HuNytW9CBpEn1QBlOfaiIINHzI=",
+      "url": "_content\/Restaurant.Portals\/Restaurant.Portals.bundle.scp.css"
+    },
+    {
+      "hash": "sha256-+ZV8kllVmXKkpFZ\/wShSex\/SZ+AL5ZbmQbPSGfV2wro=",
+      "url": "_content\/Restaurant.Reports\/Restaurant.Reports.bundle.scp.css"
+    },
+    {
+      "hash": "sha256-vXHgkzc+pAKOvuPOORf8FLx8glfgK+Z0Ps8wtfzD29g=",
+      "url": "_content\/Restaurants.AdvancedSettings\/Restaurants.AdvancedSettings.bundle.scp.css"
     }
   ],
-  "version": "P9ksRky5"
+  "version": "cdfLCDxV"
 };

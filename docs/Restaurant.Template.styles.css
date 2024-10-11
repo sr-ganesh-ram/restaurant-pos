@@ -1,5 +1,11 @@
 @import '_content/Blazor.Shared.FormGenerator/Blazor.Shared.FormGenerator.bundle.scp.css';
 @import '_content/Blazor.UI.FormGenerator/Blazor.UI.FormGenerator.bundle.scp.css';
+@import '_content/Restaurant.Expenses/Restaurant.Expenses.bundle.scp.css';
+@import '_content/Restaurant.Foods/Restaurant.Foods.bundle.scp.css';
+@import '_content/Restaurant.Peoples/Restaurant.Peoples.bundle.scp.css';
+@import '_content/Restaurant.Portals/Restaurant.Portals.bundle.scp.css';
+@import '_content/Restaurant.Reports/Restaurant.Reports.bundle.scp.css';
+@import '_content/Restaurants.AdvancedSettings/Restaurants.AdvancedSettings.bundle.scp.css';
 
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-43i0el33mm] {

@@ -1,0 +1,167 @@
+﻿[
+  {
+    "Card": "ingredient",
+    "Elevation": 0,
+    "Style": "",
+    "Spacing": 2,
+    "Outlined": true,
+    "Class": "ma-4",
+    "GridPosition": {
+      "xs": 12,
+      "sm": 12,
+      "md": 12,
+      "lg": 12
+    },
+    
+    "Header": {
+      "Enable": true,
+      "Divider": true,
+      "Avatar": {
+        "Enable": true,
+        "Color": "Primary",
+        "Icon": "material-symbols-outlined/cooking",
+        "Variant": "Outlined"
+      },
+      "Content": {
+        "Enable": true,
+        "Title": "Ingredient Information",
+        "SubTitle": "Enter information for a new product ingredients"
+      },
+      "CardAction": {
+        "Enable": true,
+        "Color": "Primary",
+        "Icon": "material-symbols-outlined/info"
+      }
+    },
+    
+    "Footer": {
+      "Enable": true,
+      "CustomClass": "d-flex justify-end flex-grow-1 gap-2",
+      
+      "EnableCancel": true,
+      "CancelText": "Cancel",
+      "CancelColor": "Secondary",
+      "CancelVariant": "Text",
+      
+      "EnableSubmit": true,
+      "SubmitText": "Save",
+      "SubmitColor": "Primary",
+      "SubmitVariant": "Filled"
+    },
+
+    "Fields": [
+
+      {
+        "FieldName": "Name",
+        "Label": "Name",
+        "InputType": "Text",
+        "Adornment": "None",
+        "MaxLength": 160,
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+
+      {
+        "FieldName": "Cost",
+        "Label": "Item Cost",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "MaxLength": 5,
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 4,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+      
+      {
+        "FieldName": "Price",
+        "Label": "Item Price",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "MaxLength": 5,
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 4,
+          "lg": 4
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      },
+      
+      {
+        "FieldName": "Unit",
+        "Label": "Unit",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 5,
+        "IsRequired": true,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 4,
+          "lg": 4
+        }
+      },
+
+      {
+        "FieldName": "AvailableQuantity",
+        "Label": "Available Quantity",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 5,
+        "IsRequired": true,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 6,
+          "lg": 6
+        }
+      },
+      
+      {
+        "FieldName": "QuantityAlert",
+        "Label": "Quantity Alert",
+        "InputType": "Numeric",
+        "Adornment": "None",
+        "IsReadOnly": false,
+        "MaxLength": 5,
+        "IsRequired": true,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 6,
+          "lg": 6
+        }
+      }
+
+    ]
+  }
+]
