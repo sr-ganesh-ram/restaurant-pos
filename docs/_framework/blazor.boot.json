@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Restaurant.Template",
   "resources": {
-    "hash": "sha256-RE8jtzGBsQWL9VLUxqhEXhLwRJ7K6FANXWAM+wMgRwE=",
+    "hash": "sha256-bwMIzzT1lH/ShdtYTBYiS9KwmrqmSK+ZFGYTx53fGo4=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.0m9y57rud2.js": "sha256-XVdpWi0J84n8bEj6tflHbLWFp5Rav/FELhJqBx2SYJ8="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.8.80cvijctdx.js": "sha256-0Dpj/NkVD5WqSC16ZvJLmlc38iv9+Je+umYBVOycPVU="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-9cI/5v0Dll9K7Ll1rtlQha4BZATf5DGZFXxyFkjCEwo="
+      "dotnet.native.wasm": "sha256-mx/5XGljgsFlyrnw4COw8zYlp5yjqQFgynJGXoqxx1U="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -39,13 +39,13 @@
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-r/+bWAAxKn2+Wu3MRYDXvKEbHjLNuptflgNuNhQdK6w=",
       "MudBlazor.ThemeManager.wasm": "sha256-nHMLroXZkxj7EdyM66DhW57DMsrhc7qmJojqasV+qlk=",
       "MudBlazor.wasm": "sha256-DTBIzL1D6CmyFi6ZZXRqkKJTJpGtdlz+5IoWE+vDDDI=",
-      "Restaurant.Expenses.wasm": "sha256-TvfTV04on8YEIsq1Etm0Kw3/0yfHYhwcPnTsjJMMDuo=",
-      "Restaurant.Foods.wasm": "sha256-LqWQLaOjfZGWqvXGk7NM6eyTX0T/7r+G29QXYGeqq/8=",
-      "Restaurant.Peoples.wasm": "sha256-Rd00zOJfUHWN1c9+cbRii/94kbKy1QomTG5gLtV0sh8=",
-      "Restaurant.Portals.wasm": "sha256-6mWaXWV44fqd+20QwjWHE1raRDc9Sir8UmKCOxzTe/Q=",
-      "Restaurant.Reports.wasm": "sha256-11D69XfYa4lVq1ox0WywFzjybwT+cYjcQhK1UUafX7s=",
-      "Restaurant.Template.wasm": "sha256-Mo0rdGdsnx8v/4Jpn2H+dAbSgnTh2wOE+Ggx8IUF1IM=",
-      "Restaurants.AdvancedSettings.wasm": "sha256-WfAY2MWc6umbMFLseaTdlN5o8RjslWdRX6zzdJnOwUA=",
+      "Restaurant.Expenses.wasm": "sha256-xRiSxT+1gz96djcHhZ0qIiXGARViHbkrr673lw8MhC8=",
+      "Restaurant.Foods.wasm": "sha256-JvjMrof/gUr0MX4/J9NPDF6pv9dLGHuSXD23m9mSWG0=",
+      "Restaurant.Peoples.wasm": "sha256-lgY1RAFlQP6il2FNpZBhBNsoygo7h3N2MmoQoZFBq/Q=",
+      "Restaurant.Portals.wasm": "sha256-PrNU9u6eK6Rx6hZwGpXlel+ynMXu58nxaRdRdHDd43c=",
+      "Restaurant.Reports.wasm": "sha256-ilphtrDQNBZtoefr1Dsda483YkxlqK2c27jyQADj5Ro=",
+      "Restaurant.Template.wasm": "sha256-fUfhPaVJmZABAS0Ybi689KamRdK/7CJXNgMOLVziU3I=",
+      "Restaurants.AdvancedSettings.wasm": "sha256-mDowSm7L4/mu3DbCn8Q8NaMB4dJqoA72x5qIv7Y9iHw=",
       "System.Collections.Concurrent.wasm": "sha256-0fmTQjUYowaKE2Rf0J1E5BuWOaWtr+JdorQR5uFqeQY=",
       "System.Collections.Immutable.wasm": "sha256-ziZNtHiKh859IKtnyZVZOLP34sZfQdyV7kXhPdJ+GcA=",
       "System.Collections.Specialized.wasm": "sha256-2RdRxvrUcMKtYTee2q1Hr7b8IX+TuyPEwzLQIouwx2M=",

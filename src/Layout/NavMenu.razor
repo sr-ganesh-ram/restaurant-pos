@@ -3,7 +3,7 @@
 @inject NavigationManager NavigationManager
 
 <MudNavMenu Bordered="true" Color="Color.Surface">
-    <MudNavLink Href="/" Match="NavLinkMatch.All" 
+    <MudNavLink Href="" Match="NavLinkMatch.All" 
                 IconColor ="Color.Info"
                 Icon="material-symbols-outlined/dashboard">Dashboard</MudNavLink>
     <MudNavLink Href="/sales" Match="NavLinkMatch.All" Icon="material-symbols-outlined/receipt_long">Sales</MudNavLink>
@@ -18,16 +18,16 @@
     <MudNavGroup Icon="material-symbols-outlined/lunch_dining"  Title="Foods" Expanded="true">
         <MudNavLink Icon="material-symbols-outlined/groups_3"
                     Match="NavLinkMatch.All"
-                    Href="/foods/category">Category</MudNavLink>
+                    Href="foods/category">Category</MudNavLink>
         <MudNavLink Icon="material-symbols-outlined/restaurant"
                     Match="NavLinkMatch.All"
-                    Href="/foods/items">Items</MudNavLink>
+                    Href="foods/items">Items</MudNavLink>
         <MudNavLink Icon="material-symbols-outlined/brunch_dining"
                     Match="NavLinkMatch.All"
-                    Href="/foods/modifier">Modifier</MudNavLink>
+                    Href="foods/modifier">Modifier</MudNavLink>
         <MudNavLink Icon="material-symbols-outlined/soup_kitchen"
                     Match="NavLinkMatch.All"
-                    Href="/foods/ingredients">Ingredients</MudNavLink>
+                    Href="foods/ingredients">Ingredients</MudNavLink>
     </MudNavGroup>
 
     <MudNavGroup Icon="material-symbols-outlined/payments" Title="Expense" Expanded="false">
@@ -86,7 +86,7 @@
         
         <MudNavLink Icon="material-symbols-outlined/translate"
                     Match="NavLinkMatch.All"
-                    Href="/advance/language">Languages</MudNavLink>
+                    Href="advance/language">Languages</MudNavLink>
     </MudNavGroup>
     
     <MudNavLink Href="settings" Match="NavLinkMatch.All" 

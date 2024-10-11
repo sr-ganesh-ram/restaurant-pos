@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Restaurants.AdvancedSettings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e09990ace35c065ca01ed6850acbe70b5fa4ecf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a1281e0d51f0b3e718c6a44f246ce67ac27cbe1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Restaurants.AdvancedSettings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Restaurants.AdvancedSettings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

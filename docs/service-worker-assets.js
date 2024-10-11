@@ -121,7 +121,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-HEm5sa8FFycMWbTFw8Tktywo5M\/TKBruix0gYDWDRnQ=",
+      "hash": "sha256-KkUQsPtwESIPkeXnb\/fw\/6XwPTT\/Nr+YLIkrDFuxD0k=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -129,7 +129,7 @@
       "url": "_framework\/dotnet.native.8.0.8.0m9y57rud2.js"
     },
     {
-      "hash": "sha256-9cI\/5v0Dll9K7Ll1rtlQha4BZATf5DGZFXxyFkjCEwo=",
+      "hash": "sha256-mx\/5XGljgsFlyrnw4COw8zYlp5yjqQFgynJGXoqxx1U=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
@@ -221,31 +221,31 @@
       "url": "_framework\/MudBlazor.wasm"
     },
     {
-      "hash": "sha256-TvfTV04on8YEIsq1Etm0Kw3\/0yfHYhwcPnTsjJMMDuo=",
+      "hash": "sha256-xRiSxT+1gz96djcHhZ0qIiXGARViHbkrr673lw8MhC8=",
       "url": "_framework\/Restaurant.Expenses.wasm"
     },
     {
-      "hash": "sha256-LqWQLaOjfZGWqvXGk7NM6eyTX0T\/7r+G29QXYGeqq\/8=",
+      "hash": "sha256-JvjMrof\/gUr0MX4\/J9NPDF6pv9dLGHuSXD23m9mSWG0=",
       "url": "_framework\/Restaurant.Foods.wasm"
     },
     {
-      "hash": "sha256-Rd00zOJfUHWN1c9+cbRii\/94kbKy1QomTG5gLtV0sh8=",
+      "hash": "sha256-lgY1RAFlQP6il2FNpZBhBNsoygo7h3N2MmoQoZFBq\/Q=",
       "url": "_framework\/Restaurant.Peoples.wasm"
     },
     {
-      "hash": "sha256-6mWaXWV44fqd+20QwjWHE1raRDc9Sir8UmKCOxzTe\/Q=",
+      "hash": "sha256-PrNU9u6eK6Rx6hZwGpXlel+ynMXu58nxaRdRdHDd43c=",
       "url": "_framework\/Restaurant.Portals.wasm"
     },
     {
-      "hash": "sha256-11D69XfYa4lVq1ox0WywFzjybwT+cYjcQhK1UUafX7s=",
+      "hash": "sha256-ilphtrDQNBZtoefr1Dsda483YkxlqK2c27jyQADj5Ro=",
       "url": "_framework\/Restaurant.Reports.wasm"
     },
     {
-      "hash": "sha256-Mo0rdGdsnx8v\/4Jpn2H+dAbSgnTh2wOE+Ggx8IUF1IM=",
+      "hash": "sha256-fUfhPaVJmZABAS0Ybi689KamRdK\/7CJXNgMOLVziU3I=",
       "url": "_framework\/Restaurant.Template.wasm"
     },
     {
-      "hash": "sha256-WfAY2MWc6umbMFLseaTdlN5o8RjslWdRX6zzdJnOwUA=",
+      "hash": "sha256-mDowSm7L4\/mu3DbCn8Q8NaMB4dJqoA72x5qIv7Y9iHw=",
       "url": "_framework\/Restaurants.AdvancedSettings.wasm"
     },
     {
@@ -481,5 +481,5 @@
       "url": "_content\/Restaurants.AdvancedSettings\/Restaurants.AdvancedSettings.bundle.scp.css"
     }
   ],
-  "version": "cdfLCDxV"
+  "version": "nv1CEhqm"
 };
