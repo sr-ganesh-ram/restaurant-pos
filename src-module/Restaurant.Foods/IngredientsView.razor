@@ -1,0 +1,109 @@
+﻿@inject ILogger<IngredientsView> Logger
+@inject ISnackbar Snackbar
+
+
+<MudContainer>
+    @if (_ingredients is not null)
+    {
+        <MudDataGrid Elevation="4" Items="@_ingredients"
+                     Virtualize="true" FixedHeader="true" 
+                     HeaderClass=""
+                     Filterable="true" SortMode="@SortMode.Multiple" 
+                     Groupable="false">
+            
+            <Columns>
+
+                <TemplateColumn Title="?" >
+                    <CellTemplate>
+                        <MudStack Spacing="0">
+                            <MudAvatar Size="Size.Medium" Elevation="3"
+                                       Color="Color.Tertiary"  Class="pa-1"
+                                       Variant="Variant.Filled">
+                                <MudImage Src="@context.Item?.IconURL"/>
+                            </MudAvatar>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+                
+                <TemplateColumn Title="Name" >
+                    <CellTemplate>
+                        <MudStack Spacing="0">
+                            <MudText Typo="Typo.body1">
+                                <MudLink Href="#">
+                                    @context.Item?.Name
+                                </MudLink>
+                            </MudText>
+                            <MudText Typo="Typo.caption">@context.Item?.CreatedDate</MudText>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+
+                <TemplateColumn Title="Cost" >
+                    <CellTemplate>
+                        <MudStack Spacing="0">
+                            <MudText Typo="Typo.body1">
+                                @context.Item?.Cost
+                            </MudText>
+                            <MudText Typo="Typo.caption">Cost</MudText>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+
+                <TemplateColumn Title="Price" >
+                    <CellTemplate>
+                        <MudStack Spacing="0">
+                            <MudText Typo="Typo.body1">
+                                @context.Item?.Price
+                            </MudText>
+                            <MudText Typo="Typo.caption">Price</MudText>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+
+                <TemplateColumn Title="Price" >
+                    <CellTemplate>
+                        <MudStack Spacing="0">
+                            <MudText Typo="Typo.body1">
+                                @context.Item?.Unit
+                            </MudText>
+                            <MudText Typo="Typo.caption">Unit</MudText>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+
+                <TemplateColumn Title="Quantity" >
+                    <CellTemplate>
+                        <MudStack Spacing="0">
+                            <MudText Typo="Typo.body1">
+                                @context.Item?.AvailableQuantity
+                            </MudText>
+                            <MudText Typo="Typo.caption">Available Quantity</MudText>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+
+                <TemplateColumn Title="Sync" >
+                    <CellTemplate>
+                        @if (context.Item.IsSync)
+                        {
+                            <MudIcon Icon="material-symbols-outlined/sync" Size="Size.Medium" Color="Color.Success" />
+                        }
+                        else
+                        {
+                            <MudIcon Icon="material-symbols-outlined/sync_problem" Size="Size.Medium" Color="Color.Error" />
+                        }
+                    </CellTemplate>
+                </TemplateColumn>
+            </Columns>
+
+        </MudDataGrid>
+    }
+    else
+    {
+        <MudSkeleton />
+        <MudSkeleton SkeletonType="SkeletonType.Circle" Width="50px" Height="50px" />
+        <MudSkeleton SkeletonType="SkeletonType.Rectangle" Width="200px" Height="110px" />
+    }
+    
+</MudContainer>
+

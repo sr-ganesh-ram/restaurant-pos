@@ -137,6 +137,8 @@ public partial class GeneralSettingsDialog : ComponentBase
         {
             await _generalSettingsCollection.DeleteAllAsync();//everytime only one data should be present.
             await _generalSettingsCollection.InsertAsync(settings);
+            //Expenses<Func<Model.GeneralSettings, bool>> x;
+            _generalSettingsCollection.Query().Where(x => x.IsSync == true);
             await LiteDb.CheckpointAsync();
             Logger.LogInformation("General Settings 'Saved' using LiteDB");
             Logger.LogInformation(settings.ToString());

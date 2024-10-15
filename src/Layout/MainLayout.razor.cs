@@ -94,7 +94,7 @@ public partial class MainLayout
     
     void OpenAboutDialog()
     {
-        var options = new DialogOptions { CloseOnEscapeKey = true };
+        var options = new DialogOptions { CloseOnEscapeKey = true, MaxWidth = MaxWidth.Large};
         Task<IDialogReference> dialog = null;
         dialog = DialogService.ShowAsync<AboutDialog>("Restaurant POS", options);
     }

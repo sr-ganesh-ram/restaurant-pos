@@ -23,3 +23,10 @@ C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\obj\Release\net8.0\Res
 C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\obj\Release\net8.0\refint\Restaurant.Foods.dll
 C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\obj\Release\net8.0\Restaurant.Foods.pdb
 C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\obj\Release\net8.0\ref\Restaurant.Foods.dll
+C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\bin\Release\net8.0\Restaurant.DataAccess.staticwebassets.runtime.json
+C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\bin\Release\net8.0\LiteDB.WebAssembly.dll
+C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\bin\Release\net8.0\Restaurant.DataAccess.dll
+C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\bin\Release\net8.0\Restaurant.DataAccess.pdb
+C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\bin\Release\net8.0\LiteDB.WebAssembly.pdb
+C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\bin\Release\net8.0\LiteDB.WebAssembly.xml
+C:\Works\MyGit\restaurant-pos\src-module\Restaurant.Foods\obj\Release\net8.0\Restaura.D481D5C0.Up2Date

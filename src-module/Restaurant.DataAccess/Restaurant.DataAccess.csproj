@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <SupportedPlatform Include="browser"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.5"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="LiteDB.WebAssembly">
+        <HintPath>..\..\src\reference-library\LiteDB.WebAssembly\LiteDB.WebAssembly.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

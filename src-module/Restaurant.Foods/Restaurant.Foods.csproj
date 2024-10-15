@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Blazor.UI.FormGenerator" Version="0.0.2.*" />
+    <PackageReference Include="Blazor.UI.FormGenerator" Version="0.0.3.*" />
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.*" />
     <PackageReference Include="MudBlazor" Version="7.*" />
     <PackageReference Include="MudBlazor.ThemeManager" Version="2.1.*" />
@@ -22,6 +22,16 @@
     <Content Update="wwwroot\forms\ingredient.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Restaurant.DataAccess\Restaurant.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LiteDB.WebAssembly">
+      <HintPath>..\..\src\reference-library\LiteDB.WebAssembly\LiteDB.WebAssembly.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

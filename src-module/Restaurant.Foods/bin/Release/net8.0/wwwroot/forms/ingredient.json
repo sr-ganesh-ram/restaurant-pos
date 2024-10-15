@@ -114,7 +114,7 @@
       {
         "FieldName": "Unit",
         "Label": "Unit",
-        "InputType": "Numeric",
+        "InputType": "Text",
         "Adornment": "None",
         "IsReadOnly": false,
         "MaxLength": 5,
@@ -160,8 +160,28 @@
           "md": 6,
           "lg": 6
         }
-      }
+      },
 
+      {
+        "FieldName": "IconURL",
+        "Label": "IconURL",
+        "InputType": "Text",
+        "Placeholder": "eg. https://www.svgrepo.com/show/486303/milk.svg",
+        "Adornment": "None",
+        "MaxLength": 450,
+        "IsReadOnly": false,
+        "Variant": "Text",
+        "GridPosition": {
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12
+        },
+        "Validation": {
+          "IsRequired": true,
+          "RequiredError": "Input is Required."
+        }
+      }
     ]
   }
 ]

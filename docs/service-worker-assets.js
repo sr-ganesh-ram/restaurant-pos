@@ -93,7 +93,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-WOa84Cb2HQRZfIU5sJhXtgrvKVb9TSXA8rhUpB1Qmrg=",
+      "hash": "sha256-\/g0Jq5anV9GUWi4sYAlbBlh9Qe+V0F95F66x+QB6jGg=",
       "url": "Restaurant.Template.styles.css"
     },
     {
@@ -121,23 +121,23 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-KkUQsPtwESIPkeXnb\/fw\/6XwPTT\/Nr+YLIkrDFuxD0k=",
+      "hash": "sha256-TzXFWUpEL5fJsUHMSxWK114PM3WgKnFzvPq0Kvmg+cM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-XVdpWi0J84n8bEj6tflHbLWFp5Rav\/FELhJqBx2SYJ8=",
+      "hash": "sha256-AUWkSuLxh+AoDOILL\/t2JmjIuCVMMgy3x8GXTsrQuPk=",
       "url": "_framework\/dotnet.native.8.0.8.0m9y57rud2.js"
     },
     {
-      "hash": "sha256-mx\/5XGljgsFlyrnw4COw8zYlp5yjqQFgynJGXoqxx1U=",
+      "hash": "sha256-OWQS2WRTmxp4fFRuKkUjqFyAmdxBhXXP8KWTKXKxnXc=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-BExBI0hRSXjX+C6Uulnrv9ZEJb0HwBu4HLdJr+ucjF0=",
+      "hash": "sha256-WlDMH7xaG\/Ioh29mzqrzNoTlWTk8yTR+77ogVXmG11I=",
       "url": "_framework\/Blazor.Shared.FormGenerator.wasm"
     },
     {
-      "hash": "sha256-T4nbruAXNFfAAohh5GJeoe8qIKSPgaVE4CAFK28hP+c=",
+      "hash": "sha256-0X03pTKR0S7ELSqr7rN5jrtx5rAxGKnCSGgh88i5IU4=",
       "url": "_framework\/Blazor.UI.FormGenerator.wasm"
     },
     {
@@ -149,11 +149,11 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.Forms.wasm"
     },
     {
-      "hash": "sha256-P0qrYSyRFPSG4ysrl0K\/OiFgwFqxRFhCq5ReYE+Ykus=",
+      "hash": "sha256-y\/ZNiK8tlk3srW\/KUtne34ff\/pr6HznqVdhnvM72FBc=",
       "url": "_framework\/Microsoft.AspNetCore.Components.wasm"
     },
     {
-      "hash": "sha256-G3aKu5JietlO6odgDxZ6RHZWKVlBzYmhyGcuyTTgU48=",
+      "hash": "sha256-+Pn4TMkiohJpe6VP+OmUgKmu+PPpKmkwYfrQhK6ywMY=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
@@ -189,7 +189,7 @@
       "url": "_framework\/Microsoft.Extensions.Localization.wasm"
     },
     {
-      "hash": "sha256-QDPGFdAVzHgarpdYeBpA4t4kqYU+95IUC6VHbtmoiD4=",
+      "hash": "sha256-oppYJsFdybK64GAiF4XfgChkKSEjw5yIR7PsRjm7IJE=",
       "url": "_framework\/Microsoft.Extensions.Logging.Abstractions.wasm"
     },
     {
@@ -213,39 +213,43 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.wasm"
     },
     {
-      "hash": "sha256-nHMLroXZkxj7EdyM66DhW57DMsrhc7qmJojqasV+qlk=",
+      "hash": "sha256-4+4EQBY0Hy1comt85ICLFG50iesLCO+FH2ISm\/0Wkgc=",
       "url": "_framework\/MudBlazor.ThemeManager.wasm"
     },
     {
-      "hash": "sha256-DTBIzL1D6CmyFi6ZZXRqkKJTJpGtdlz+5IoWE+vDDDI=",
+      "hash": "sha256-0+n21h0kc+MmgA2nx18Ahn3Xi+v37cPks3yFhHZO6bU=",
       "url": "_framework\/MudBlazor.wasm"
     },
     {
-      "hash": "sha256-xRiSxT+1gz96djcHhZ0qIiXGARViHbkrr673lw8MhC8=",
+      "hash": "sha256-z9tcz8tlAmzN9HHJVmw5rbCWBL0umHUMFztU64HpiJc=",
+      "url": "_framework\/Restaurant.DataAccess.wasm"
+    },
+    {
+      "hash": "sha256-VdVZwv2FnfAquci8OVsXD3kZFsLuzIE3LI1JT4xmajM=",
       "url": "_framework\/Restaurant.Expenses.wasm"
     },
     {
-      "hash": "sha256-JvjMrof\/gUr0MX4\/J9NPDF6pv9dLGHuSXD23m9mSWG0=",
+      "hash": "sha256-uM+H1FrWgorVV84ICLmElW+Qi4c9Lwwe7+vTRbyaN+0=",
       "url": "_framework\/Restaurant.Foods.wasm"
     },
     {
-      "hash": "sha256-lgY1RAFlQP6il2FNpZBhBNsoygo7h3N2MmoQoZFBq\/Q=",
+      "hash": "sha256-ZUqNKQqVwN2jWgJLg211OG\/Q3+NDy2MWuMPykxpBk2c=",
       "url": "_framework\/Restaurant.Peoples.wasm"
     },
     {
-      "hash": "sha256-PrNU9u6eK6Rx6hZwGpXlel+ynMXu58nxaRdRdHDd43c=",
+      "hash": "sha256-ZhNvQzC4xQgSkULpo3sY38bpbUvll5qxwEWrQdhECnE=",
       "url": "_framework\/Restaurant.Portals.wasm"
     },
     {
-      "hash": "sha256-ilphtrDQNBZtoefr1Dsda483YkxlqK2c27jyQADj5Ro=",
+      "hash": "sha256-cD3X+nmCEbibzIR+SYod4DjeRILZ9e9xTg73+m9CzCA=",
       "url": "_framework\/Restaurant.Reports.wasm"
     },
     {
-      "hash": "sha256-fUfhPaVJmZABAS0Ybi689KamRdK\/7CJXNgMOLVziU3I=",
+      "hash": "sha256-WDBZSS\/T8\/sazHoRha4OqHsca1OxIHAi9EXzuRS5Idk=",
       "url": "_framework\/Restaurant.Template.wasm"
     },
     {
-      "hash": "sha256-mDowSm7L4\/mu3DbCn8Q8NaMB4dJqoA72x5qIv7Y9iHw=",
+      "hash": "sha256-RV0AakaBbvXo034c673k1wp9zjHiqqEFQQLSqC\/QJvc=",
       "url": "_framework\/Restaurants.AdvancedSettings.wasm"
     },
     {
@@ -293,11 +297,11 @@
       "url": "_framework\/System.Diagnostics.Process.wasm"
     },
     {
-      "hash": "sha256-ORnzXIgDO9nEq1ETZVC6GhcFSxfd+NfCANzMLKDmRwM=",
+      "hash": "sha256-t04tykEA1VXrHm4Vc8BgyCE+\/1jhXPCxhWWUI3J8SzA=",
       "url": "_framework\/System.Linq.Expressions.wasm"
     },
     {
-      "hash": "sha256-GRnH67z0rtdLH6D5C3TqFxqiR194TrQTwfIG6d5LDk4=",
+      "hash": "sha256-7+a2OGhIThe+ZFv16lssWVn6h1K9yGrrEuYBxw6KK54=",
       "url": "_framework\/System.Linq.wasm"
     },
     {
@@ -317,11 +321,11 @@
       "url": "_framework\/System.Net.Primitives.wasm"
     },
     {
-      "hash": "sha256-2CEscc25n3XVBrVNCCxUy+1ycgpBDIqLLHWRWeomQfE=",
+      "hash": "sha256-7bpR6ER04EGy6aRJZqLqMgmKbw5thIfb8tKyfZ8EyCw=",
       "url": "_framework\/System.ObjectModel.wasm"
     },
     {
-      "hash": "sha256-XHLE3XykgL+q8B3HOkCF0kryxV3FngUQhRPvTfl3nTE=",
+      "hash": "sha256-cqQYMU3IbODDpoKjAqYcTQmJrJIOvvEQEPz6bAgyrSg=",
       "url": "_framework\/System.Private.CoreLib.wasm"
     },
     {
@@ -337,7 +341,11 @@
       "url": "_framework\/System.Runtime.InteropServices.wasm"
     },
     {
-      "hash": "sha256-NLMP6Q77sbo+Og8jv97KEsocAUZ7lIrRVRtAzl9b51I=",
+      "hash": "sha256-iH1Tr6cr3+Ru+sY8oByA6NFyVCSYXyszCxUaILYHMaA=",
+      "url": "_framework\/System.Runtime.Numerics.wasm"
+    },
+    {
+      "hash": "sha256-s\/7GgBKtZ7pQu5RHvX4jGZFXa+Se9xNY89T5rpqQt04=",
       "url": "_framework\/System.Runtime.wasm"
     },
     {
@@ -398,6 +406,14 @@
     },
     {
       "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
+      "url": "_content\/Restaurant.DataAccess\/background.png"
+    },
+    {
+      "hash": "sha256-FrrTtczTUEHjkhc\/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "url": "_content\/Restaurant.DataAccess\/exampleJsInterop.js"
+    },
+    {
+      "hash": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4\/sNPbaRUspOLefkCY=",
       "url": "_content\/Restaurant.Expenses\/background.png"
     },
     {
@@ -413,7 +429,7 @@
       "url": "_content\/Restaurant.Foods\/exampleJsInterop.js"
     },
     {
-      "hash": "sha256-uQ\/JPhKpQNNxPAeVy7cGSB4l1YAonbZLZgh9MbcMp1I=",
+      "hash": "sha256-44jip0gqC4Pe7JE\/5cbhpr+s0nhV+Ae6koN7IdpvvX4=",
       "url": "_content\/Restaurant.Foods\/forms\/ingredient.json"
     },
     {
@@ -457,6 +473,10 @@
       "url": "_content\/Blazor.UI.FormGenerator\/Blazor.UI.FormGenerator.bundle.scp.css"
     },
     {
+      "hash": "sha256-7NoaCluK+3uM+zbCrcyy6KowRmtE2Jn5COXvn1+N4o8=",
+      "url": "_content\/Restaurant.DataAccess\/Restaurant.DataAccess.bundle.scp.css"
+    },
+    {
       "hash": "sha256-Ovk9zCS\/cTpSM4F2CoM\/W3W4iU6v9GqbuWSwltdoHcQ=",
       "url": "_content\/Restaurant.Expenses\/Restaurant.Expenses.bundle.scp.css"
     },
@@ -481,5 +501,5 @@
       "url": "_content\/Restaurants.AdvancedSettings\/Restaurants.AdvancedSettings.bundle.scp.css"
     }
   ],
-  "version": "nv1CEhqm"
+  "version": "\/NT3Arh\/"
 };

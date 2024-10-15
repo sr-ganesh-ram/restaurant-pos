@@ -1,5 +1,6 @@
 @import '_content/Blazor.Shared.FormGenerator/Blazor.Shared.FormGenerator.bundle.scp.css';
 @import '_content/Blazor.UI.FormGenerator/Blazor.UI.FormGenerator.bundle.scp.css';
+@import '_content/Restaurant.DataAccess/Restaurant.DataAccess.bundle.scp.css';
 
 /* _content/Restaurant.Foods/Component1.razor.rz.scp.css */
 .my-component[b-kilwp1x8po] {

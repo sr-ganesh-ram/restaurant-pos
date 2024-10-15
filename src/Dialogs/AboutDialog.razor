@@ -13,27 +13,63 @@
     </TitleContent>
     <DialogContent>
 
-        <MudText Color="Color.Surface" Typo="Typo.h5">Version 0.0.8.1</MudText>
-        <MudText Color="Color.Primary" Typo="Typo.h6">What's New?</MudText>
-        <MudText Typo="Typo.body2">
-            <ul>
-                <li>
-                    <span style='font-size:25px;'>&#45;</span>
-                    Settings
-                </li>
-                <li>
-                    <span style='font-size:25px;'>&#45;</span>
-                    Food Ingredients
-                </li>
-            </ul>
-        </MudText>
+        <MudExpansionPanels>
+            <MudExpansionPanel Text="Version 0.0.9" Expanded="true">
+                <MudPaper Outlined="true" Class="pa-1">
+                    <MudText Color="Color.Primary" Typo="Typo.h6">What's New?</MudText>
+                    <MudText Typo="Typo.body2">
+                        <ul>
+                            <li>
+                                <span style='font-size:25px;'>&#45;</span>
+                                Food Ingredients - Add
+                            </li>
+                            <li>
+                                <span style='font-size:25px;'>&#45;</span>
+                                Food Ingredients - View
+                            </li>
+                            <li>
+                                <span style='font-size:25px;'>&#45;</span>
+                                LiteDb Wasm Integration for local store
+                            </li>
+                        </ul>
+                    </MudText>
 
-        <MudText Color="Color.Error" Typo="Typo.h6">Issues Fixed</MudText>
-        <MudText Typo="Typo.body2">
-            <ul>
-                <li>None</li>
-            </ul>
-        </MudText>
+                    <MudText Color="Color.Error" Typo="Typo.h6">Issues Fixed</MudText>
+                    <MudText Typo="Typo.body2">
+                        <ul>
+                            <li>None</li>
+                        </ul>
+                    </MudText>
+                </MudPaper>
+                
+            </MudExpansionPanel>
+            <MudExpansionPanel Text="Version 0.0.8">
+                <MudPaper Outlined="true" Class="pa-1">
+                    <MudText Color="Color.Primary" Typo="Typo.h6">What's New?</MudText>
+                    <MudText Typo="Typo.body2">
+                        <ul>
+                            <li>
+                                <span style='font-size:25px;'>&#45;</span>
+                                Settings
+                            </li>
+                            <li>
+                                <span style='font-size:25px;'>&#45;</span>
+                                Food Ingredients - Add
+                            </li>
+                        </ul>
+                    </MudText>
+
+                    <MudText Color="Color.Error" Typo="Typo.h6">Issues Fixed</MudText>
+                    <MudText Typo="Typo.body2">
+                        <ul>
+                            <li>None</li>
+                        </ul>
+                    </MudText>
+                </MudPaper>
+            </MudExpansionPanel>
+        </MudExpansionPanels>
+        
+        
     </DialogContent>
     <DialogActions>        
         <MudButton Color="Color.Primary" OnClick="Submit">Close</MudButton>

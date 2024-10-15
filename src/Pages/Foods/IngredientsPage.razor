@@ -4,5 +4,33 @@
 
 <PageTitle>Ingredients</PageTitle>
 
-<Ingredients />
+<br/>
+
+<MudCard >
+    <MudCardContent>
+        <MudStack Row>
+            <MudAvatar Size="Size.Large" Class="pa-1">
+                <MudImage Src="https://www.svgrepo.com/show/486303/milk.svg"/>
+            </MudAvatar>
+
+            <MudStack Spacing="0" Row="false">
+                <MudText Typo="Typo.h6">Ingredients Items</MudText>
+                <MudText Typo="Typo.caption">
+                    Ingredients are the components that make up a food item, whether it’s a packaged product or a homemade dishes.
+                </MudText>
+            </MudStack>
+
+            <MudSpacer/>
+            <MudButton OnClick="AddIngredients" Variant="Variant.Filled">
+                <MudIcon Color="Color.Success" Icon="material-symbols-outlined/add" />
+                <MudText Typo="Typo.button"> Add Ingredients</MudText>
+            </MudButton>
+        </MudStack>
+    </MudCardContent>
+</MudCard>
+
+<br/>
+<IngredientsView LiteDatabase="@LiteDb" />
+
+@*<Ingredients LiteDatabase="@LiteDb" />*@
 
